@@ -19,6 +19,15 @@ Después de ese intercambio, nos pareció que más allá de implementar un model
 
 ## Seguimiento semanal epidemiológico en México
 
-Por eso hicimos una implementación regional de la metodología utilizada por el [centro de modelado matemático para enfermedades infecciosas](https://cmmid.github.io/) descrito en [https://epiforecasts.io/covid/](https://epiforecasts.io/covid/).
+Por eso hicimos una implementación regional de la metodología utilizada por el [Centro de modelado matemático para enfermedades infecciosas](https://cmmid.github.io/) descrito en [https://epiforecasts.io/covid/](https://epiforecasts.io/covid/).
 
 La implementación permite identificar los cambios en el **número de reproducción** <img src="https://render.githubusercontent.com/render/math?math=(R_e(t))"> y **casos diarios** durante el brote de COVID-19 a nivel nacional y subnacional, teniendo en cuenta posibles sesgos debido a retrasos en la notificación de los casos confirmados y el subreporte, dicho análisis será actualizado semana a semana con los datos oficiales nacionales.
+
+
+![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/cases_plot.png | width=800)
+
+![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/rt_plot.png  | width=800)
+
+![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/summary_plot.png | width=800)
+
+
