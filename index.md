@@ -1,7 +1,26 @@
 # Seguimiento semanal de COVID-19 en México
 
+## Resumen de seguimiento al 16 de Abril de 2020
 
+### Estados con mayor crecimiento de casos confirmados y fecha estimada de infección
 
+![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/high_cases_plot.png)
+
+### Estados con mayor número de reproducción actualizado
+
+![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/high_cases_rt_plot.png)
+
+### Casos confirmados y fechas estimadas de infección por Estado
+
+![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/cases_plot.png)
+
+### Número de reproducción en el tiempo por Estado
+
+![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/rt_plot.png)
+
+### Último número de reproducción estimado por fecha de infección por Estado
+
+![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/summary_plot.png)
 
 ---
 ## Métodología
