@@ -1,4 +1,7 @@
 # Seguimiento semanal de COVID-19 en México
+
+Para detalles sobre el equipo que trabajó esta implementación, y como la mantendrémos actualizada: [Contexto sobre el observatorio de datos COVID Mx](https://github.com/datoscovidmx/datoscovidmx.github.io/blob/master/README.md)
+
 # Resumen al 16 de Abril de 2020
 
 ## Estados con estimación de casos nuevos diarios más alta
