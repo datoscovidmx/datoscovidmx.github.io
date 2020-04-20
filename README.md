@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+# Observatorio de datos de COVID-19 en México.
+[@DatosCovid](https://twitter.com/datoscovid)
 
-You can use the [editor on GitHub](https://github.com/datoscovidmx/datoscovidmx.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Nacimiento del Observatorio
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Esta iniciativa nace de una colaboración de las principales comunidades de ciencia de datos y desarrollo tecnológico en el país:
+- [DataLab Community](https://www.facebook.com/datalabmx/)
+- [Data Science Monterrey](https://www.facebook.com/groups/469523539899326/)
+- [SoCieDat](https://www.facebook.com/sociedat/)
+- [Zapopan Lab](https://www.facebook.com/zapopanlab/)
 
-### Markdown
+En un inicio esta colaboración se centró en hacer llegar algunas observaciones técnicas al primer modelo empleado en el gobierno de Jalisco, el cuál contenia algunos detalles metodológicos que nos parecía eran dignos de comentar, a raíz de esto, trabajamos en la implementación de un modelo epidemiológico tipo [SEIR](https://colab.research.google.com/drive/1Sn2bxaEQOsaOKFTKchtz7rjWO1ZAGjR9#scrollTo=dvhCYYvTDqAB) público y accesible, que dicho sea de paso, el gobierno de Jalisco adoptó a través de la Universidad de Guadalajara.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Sin embargo, una vez proporcionado el modelo por nuestra parte, los especialistas de la Universidad de Guadalajara le dieron seguimiento, los términos en los que concretamos la cesión del modelo se encuentran detallados en la siguiente carta:
 
-```markdown
-Syntax highlighted code block
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Comparto la carta con la que iniciamos la plática de hoy. Para el público en general y evitar confusiones.<br><br>Saludos. <a href="https://t.co/kbbQkak9LS">pic.twitter.com/kbbQkak9LS</a></p>&mdash; Miguel Núñez (@NunezKant) <a href="https://twitter.com/NunezKant/status/1246326695654756353?ref_src=twsrc%5Etfw">April 4, 2020</a></blockquote> 
 
-# Header 1
-## Header 2
-### Header 3
+Después de ese intercambio, nos pareció que más allá de implementar un modelo de predicción de infectados, necesitabamos implementar una herramienta que le diera seguimiento a la evolución epidemiológica del país, dónde sea observarble el efecto de las políticas públicas como las cuarentena.
 
-- Bulleted
-- List
+## Seguimiento semanal epidemiológico en México
 
-1. Numbered
-2. List
+Por eso hicimos una implementación regional de la metodología utilizada por el [centro de modelado matemático para enfermedades infecciosas](https://cmmid.github.io/) descrito en [https://epiforecasts.io/covid/](https://epiforecasts.io/covid/).
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/datoscovidmx/datoscovidmx.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+La implementación permite identificar los cambios en el **número de reproducción** <img src="https://render.githubusercontent.com/render/math?math=(R_e(t))"> y **casos diarios** durante el brote de COVID-19 a nivel nacional y subnacional, teniendo en cuenta posibles sesgos debido a retrasos en la notificación de los casos confirmados y el subreporte, dicho análisis será actualizado semana a semana con los datos oficiales nacionales.
