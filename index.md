@@ -18,7 +18,7 @@ Las áreas sombreadas representan mejor la evolución epidemiológica de las ent
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/high_cases_plot.png)
 
-<center>Casos confirmados (barras) y casos estimados. (banda clara = intervalo de credibilidad al 90%; banda obscura = intervalo de credibilidad al 50%).</center><br />
+<center>Casos confirmados (barras) y casos estimados (banda clara = intervalo de credibilidad al 90%; banda obscura = intervalo de credibilidad al 50%).</center><br />
 <br />
 *Es de notar que la estimación, no llega al dia en el que actualizamos el reporte, dado que la estimación depende del retraso anteriormente citado, que es en promedio de alrededor de 10 días*
 
@@ -33,9 +33,9 @@ Este tasa depende de diversos factores entre ellos:
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/high_cases_rt_plot.png)
 
-<center> Cambios en la tasa de reproducción efectiva (R) (banda clara = intervalo de credibilidad al 90%; banda obscura = intervalo de credibilidad al 50%).</center><br />
+<center> Cambios en la tasa de reproducción efectiva (banda clara = intervalo de credibilidad al 90%; banda obscura = intervalo de credibilidad al 50%).</center><br />
 <br />
-Esta gráfica es de especial interés, ya que el cambio de R en el tiempo responden a intervenciones / politicas públicas (ej. cuarentena, distanciamiento social) o la falta de dicha intervención (caso omiso de las medidas de salubridad).
+Esta gráfica es de especial interés, ya que el cambio de R en el tiempo responde a intervenciones / politicas públicas (ej. cuarentena, distanciamiento social) o la falta de dichas intervenciones (caso omiso de las medidas de salubridad).
 
 El distanciamiento social disminuye el valor de R en el tiempo, mientras que el caso omiso lo eleva. Las gráficas muestran una linea punteada sobre *R = 1* ya que es el valor objetivo para contener la epidemia, es decir, para que la epidemia se logre mitigar, ambas bandas de la estimación (claras y obscuras) deben encontrarse sobre 1 o por debajo de 1.
 
@@ -61,7 +61,7 @@ Este resúmen muestra la tasa efectiva de reproducción actual para cada estado 
 
 <center>Resúmen Nacional. (barra clara = intervalo de credibilidad al 90%; barra oscura = intervalo de credibilidad al 50%.)</center><br />
 <br />
-Los estados están ordenadas por el número de casos diarios confirmados esperados y codificadas por color según el cambio esperado en los casos diarios confirmados. 
+Los estados están ordenadas por el número de casos diarios confirmados esperados y codificados por color según el cambio esperado en los casos diarios confirmados. 
 
 **La línea punteada indica el valor objetivo de 1 para la tasa efectiva de reproducción que se requiere para el control**
 
