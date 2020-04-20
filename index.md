@@ -1,3 +1,19 @@
+- [Seguimiento semanal de COVID-19 en México](#seguimiento-semanal-de-covid-19-en-méxico)
+- [Resumen al 16 de Abril de 2020](#resumen-al-16-de-abril-de-2020)
+ - [Estados con estimación de casos nuevos diarios más alta](#estados-con-estimación-de-casos-nuevos-diarios-más-alta)
+  - [Casos confirmados vs Casos Estimados](#casos-confirmados-vs-casos-estimados)
+  - [Variación de la tasa efectiva de reproducción](#variación-de-la-tasa-efectiva-de-reproducción)
+ - [Estimaciones para el resto de los estados](#estimaciones-para-el-resto-de-los-estados)
+  - [Casos confirmados vs casos Estimados](#casos-confirmados-vs-casos-estimados-1)
+  - [Variación de la tasa efectiva de reproducción](#variación-de-la-tasa-efectiva-de-reproducción-1)
+ - [Resúmen Nacional](#resúmen-nacional)
+ - [Métodología](#métodología)
+  - [Datos](#datos)
+  - [Supuestos](#supuestos)
+  - [Limitaciones](#limitaciones)
+  - [Detalles](#detalles)
+
+
 # Seguimiento semanal de COVID-19 en México
 # Resumen al 16 de Abril de 2020
 
