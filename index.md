@@ -6,7 +6,7 @@
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/high_cases_plot.png)
 
-### Estados con mayor número de reproducción actualizado a la fecha de reporte
+### Número de reproducción en Estados con mayor crecimiento de casos
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/high_cases_rt_plot.png)
 
