@@ -1,8 +1,6 @@
 # Seguimiento semanal de COVID-19 en México
 # Resumen al 16 de Abril de 2020
 
----
-
 ## Estados con estimación de casos nuevos diarios más alta
 
 - Ciudad de México
@@ -20,7 +18,7 @@ Las áreas sombreadas representan mejor la evolución epidemiológica de las ent
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/high_cases_plot.png)
 
-<center>Casos confirmados (barras) y casos estimados (banda clara = intervalo de credibilidad al 90%; banda obscura = intervalo de credibilidad al 50%).</center> 
+<center>Casos confirmados (barras) y casos estimados. (banda clara = intervalo de credibilidad al 90%; banda obscura = intervalo de credibilidad al 50%).</center><br />
 
 *Es de notar que la estimación, no llega al dia en el que actualizamos el reporte, dado que la estimación depende del retraso anteriormente citado, que es en promedio de alrededor de 10 días*
 
@@ -29,22 +27,19 @@ Las áreas sombreadas representan mejor la evolución epidemiológica de las ent
 La tasa efectiva de reproducción (R) es un número que mide el potencial de transmisibilidad que tiene una enfermedad infecciosa en una población con individuos suceptibles y no suceptibles (decesos o personas ya contagiadas). En palabras simples, es el promedio de personas infectadas por cada infectado.
 
 Este tasa depende de diversos factores entre ellos:
-
 - **El promedio de contacto entre los individuos de la población**
 - La capacidad infecciosa del virus (que facilidad tiene para migrar entre huesped y huesped)
 - El periodo en el que una persona es infecciosa mientras está infectada
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/high_cases_rt_plot.png)
 
-<center> Cambios en la tasa de reproducción efectiva (R) (banda clara = intervalo de credibilidad al 90%; banda obscura = intervalo de credibilidad al 50%).</center> 
+<center> Cambios en la tasa de reproducción efectiva (R) (banda clara = intervalo de credibilidad al 90%; banda obscura = intervalo de credibilidad al 50%).</center><br />
 
 Esta gráfica es de especial interés, ya que el cambio de R en el tiempo responden a intervenciones / politicas públicas (ej. cuarentena, distanciamiento social) o la falta de dicha intervención (caso omiso de las medidas de salubridad).
 
 El distanciamiento social disminuye el valor de R en el tiempo, mientras que el caso omiso lo eleva. Las gráficas muestran una linea punteada sobre *R = 1* ya que es el valor objetivo para contener la epidemia, es decir, para que la epidemia se logre mitigar, ambas bandas de la estimación (claras y obscuras) deben encontrarse sobre 1 o por debajo de 1.
 
 Observar una tendencia a la baja es un signo positivo en relación al control de la epidemia, sin embargo mientras el número no se encuentre por debajo de 1, seguiran existiendo casos diarios y no se puede concluir que existe un control sobre la epidemia.
-
----
 
 ## Estimaciones para el resto de los estados
 
@@ -64,7 +59,7 @@ Este resúmen muestra la tasa efectiva de reproducción actual para cada estado 
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/summary_plot.png)
 
-<center> (barra clara = intervalo creíble del 90%; barra oscura = intervalo creíble del 50%).</center> 
+<center>Resúmen Nacional. (barra clara = intervalo de credibilidad al 90%; barra oscura = intervalo de credibilidad al 50%.)</center><br />
 
 Los estados están ordenadas por el número de casos diarios confirmados esperados y codificadas por color según el cambio esperado en los casos diarios confirmados. 
 
