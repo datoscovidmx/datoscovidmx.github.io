@@ -16,6 +16,7 @@ Hicimos una implementación basada en el trabajo experto del centro de modelaje 
 
 - La fecha de infección fue calculada con base en un periodo de incubación promedio de 5 días.
 - Las estimaciones de la tasa efectiva de reproducción son obtenidas por medio de *EpiEstim* ajustando para casos importados y optimizando una ventana móvil, asumiendo un intervalo serial promedio de 4.7 dias (95% CrI: 3.7, 6.0) y una desviación estandar de 2.9 dias (95% CrI: 1.9, 4.9).
+- Estados sin un día con mínimo 10 casos nuevos confirmados, no son tomados en cuenta para el análisis.
 
 ### Limitaciones
 
