@@ -23,11 +23,16 @@ Por eso hicimos una implementación regional de la metodología utilizada por el
 
 La implementación permite identificar los cambios en el **número de reproducción** <img src="https://render.githubusercontent.com/render/math?math=(R_e(t))"> y **casos diarios** durante el brote de COVID-19 a nivel nacional y subnacional, teniendo en cuenta posibles sesgos debido a retrasos en la notificación de los casos confirmados y el subreporte, dicho análisis será actualizado semana a semana con los datos oficiales nacionales.
 
+### Casos confirmados y fechas estimadas de infección por Estado
 
-![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/cases_plot.png | width=800)
+![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/cases_plot.png)
 
-![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/rt_plot.png  | width=800)
+### Número de reproducción en el tiempo por Estado
 
-![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/summary_plot.png | width=800)
+![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/rt_plot.png)
+
+### Resumen de último número de reproducción estimado por fecha de infección por Estado
+
+![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/summary_plot.png)
 
 
