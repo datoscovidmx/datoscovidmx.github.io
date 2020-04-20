@@ -61,7 +61,7 @@ Este resúmen muestra la tasa efectiva de reproducción actual para cada estado 
 
 <center>Resúmen Nacional. (barra clara = intervalo de credibilidad al 90%; barra oscura = intervalo de credibilidad al 50%.)</center><br />
 <br />
-Los estados están ordenadas por el número de casos diarios confirmados esperados y codificados por color según el cambio esperado en los casos diarios confirmados. 
+Los estados están ordenados por el número de casos diarios confirmados esperados y codificados por color según el cambio esperado en los casos diarios confirmados. 
 
 **La línea punteada indica el valor objetivo de 1 para la tasa efectiva de reproducción que se requiere para el control**
 
