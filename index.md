@@ -20,7 +20,7 @@ Las áreas sombreadas representan mejor la evolución epidemiológica de las ent
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/high_cases_plot.png)
 
-Casos confirmados (barras) y casos estimados (banda clara = intervalo de credibilidad al 90%; banda obscura = intervalo de credibilidad al 50%). 
+<center>Casos confirmados (barras) y casos estimados (banda clara = intervalo de credibilidad al 90%; banda obscura = intervalo de credibilidad al 50%).</center> 
 
 *Es de notar que la estimación, no llega al dia en el que actualizamos el reporte, dado que la estimación depende del retraso anteriormente citado, que es en promedio de alrededor de 10 días*
 
@@ -36,7 +36,7 @@ Este tasa depende de diversos factores entre ellos:
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/high_cases_rt_plot.png)
 
-Cambios en la tasa de reproducción efectiva (R) (banda clara = intervalo de credibilidad al 90%; banda obscura = intervalo de credibilidad al 50%).
+<center> Cambios en la tasa de reproducción efectiva (R) (banda clara = intervalo de credibilidad al 90%; banda obscura = intervalo de credibilidad al 50%).</center> 
 
 Esta gráfica es de especial interés, ya que el cambio de R en el tiempo responden a intervenciones / politicas públicas (ej. cuarentena, distanciamiento social) o la falta de dicha intervención (caso omiso de las medidas de salubridad).
 
@@ -64,7 +64,9 @@ Este resúmen muestra la tasa efectiva de reproducción actual para cada estado 
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/summary_plot.png)
 
-(barra clara = intervalo creíble del 90%; barra oscura = intervalo creíble del 50%). Los estados están ordenadas por el número de casos diarios confirmados esperados y codificadas por color según el cambio esperado en los casos diarios confirmados. 
+<center> (barra clara = intervalo creíble del 90%; barra oscura = intervalo creíble del 50%).</center> 
+
+Los estados están ordenadas por el número de casos diarios confirmados esperados y codificadas por color según el cambio esperado en los casos diarios confirmados. 
 
 **La línea punteada indica el valor objetivo de 1 para la tasa efectiva de reproducción que se requiere para el control**
 
