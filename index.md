@@ -6,7 +6,7 @@
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/high_cases_plot.png)
 
-### Estados con mayor número de reproducción actualizado
+### Estados con mayor número de reproducción en el tiempo
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/high_cases_rt_plot.png)
 
@@ -21,6 +21,9 @@
 ### Último número de reproducción estimado por fecha de infección por Estado
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/summary_plot.png)
+
+**Notas**
+- Se incluyen estados con al menos 10 casos confirmados en un día.
 
 ---
 ## Métodología
