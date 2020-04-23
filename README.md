@@ -15,13 +15,15 @@ Sin embargo, una vez proporcionado el modelo por nuestra parte, los especialista
 
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr">Comparto la carta con la que iniciamos la plática de hoy. Para el público en general y evitar confusiones.<br><br>Saludos. <a href="https://t.co/kbbQkak9LS">pic.twitter.com/kbbQkak9LS</a></p>&mdash; Miguel Núñez (@NunezKant) <a href="https://twitter.com/NunezKant/status/1246326695654756353?ref_src=twsrc%5Etfw">April 4, 2020</a></blockquote> 
 
-Después de ese intercambio, nos pareció que más allá de implementar un modelo de predicción de infectados, necesitabamos implementar una herramienta que le diera seguimiento a la evolución epidemiológica del país, dónde sea observarble el efecto de las políticas públicas como las cuarentena.
+Después de ese intercambio, nos pareció que más allá de implementar un modelo de predicción de infectados, necesitabamos implementar una herramienta que le diera seguimiento a la evolución epidemiológica del país, dónde sea observarble el efecto de las políticas públicas como las cuarentenas.
 
 ## Seguimiento semanal epidemiológico en México
 
-Por eso hicimos una implementación regional de la metodología utilizada por el [Centro de modelado matemático para enfermedades infecciosas](https://cmmid.github.io/) descrito en [https://epiforecasts.io/covid/](https://epiforecasts.io/covid/).
+Por eso hicimos una implementación regional de la metodología utilizada por el [Centro de Modelado Matemático para Enfermedades Infecciosas](https://cmmid.github.io/) descrito en [https://epiforecasts.io/covid/](https://epiforecasts.io/covid/).
 
 La implementación permite identificar los cambios en el **número de reproducción** <img src="https://render.githubusercontent.com/render/math?math=(R_e(t))"> y **casos diarios** durante el brote de COVID-19 a nivel nacional y subnacional, teniendo en cuenta posibles sesgos debido a retrasos en la notificación de los casos confirmados y el subreporte, dicho análisis será actualizado semana a semana con los datos oficiales nacionales.
 
+## Datos
 
-
+- Los datos utilizados provienen del reporte técnico diario federal de la Secretaría de Salud (InDRE) de México.
+- Las gráficas por estado y los datos para generarlas se pueden obtener en [(https://github.com/datoscovidmx/covid-nowcasts-mexico)](https://github.com/datoscovidmx/covid-nowcasts-mexico).
