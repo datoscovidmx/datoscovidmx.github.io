@@ -1,12 +1,13 @@
 - [Seguimiento semanal de COVID-19 en México](#seguimiento-semanal-de-covid-19-en-méxico)
-- [Resumen al 16 de Abril de 2020](#resumen-al-16-de-abril-de-2020)
+- [Resumen al 16 de abril de 2020](#resumen-al-16-de-abril-de-2020)
  - [Estados con estimación de casos nuevos diarios más alta](#estados-con-estimación-de-casos-nuevos-diarios-más-alta)
-  - [Casos confirmados vs Casos Estimados](#casos-confirmados-vs-casos-estimados)
+  - [Casos confirmados vs casos estimados](#casos-confirmados-vs-casos-estimados)
   - [Variación de la tasa efectiva de reproducción](#variación-de-la-tasa-efectiva-de-reproducción)
  - [Estimaciones para el resto de los estados](#estimaciones-para-el-resto-de-los-estados)
-  - [Casos confirmados vs casos Estimados](#casos-confirmados-vs-casos-estimados-1)
+  - [Casos confirmados vs Casos Estimados](#casos-confirmados-vs-casos-estimados-1)
   - [Variación de la tasa efectiva de reproducción](#variación-de-la-tasa-efectiva-de-reproducción-1)
- - [Resúmen Nacional](#resúmen-nacional)
+ - [Resumen Nacional](#resúmen-nacional)
+  -[Mapa](#mapa)
  - [Metodología](#metodología)
   - [Datos](#datos)
   - [Supuestos](#supuestos)
@@ -27,7 +28,7 @@ Para detalles sobre el equipo que trabajó esta implementación, y como la mante
 - Puebla
 - Sinaloa
 
-### Casos confirmados vs casos estimados
+### Casos Confirmados vs Casos Estimados
 
 Los casos estimados se obtienen apartir de corregir los datos confirmados teniendo en cuenta el retraso entre la confirmación del caso y la fecha de inicio de sintomas más el periodo de incubación del virus.
 
@@ -36,7 +37,6 @@ Las áreas sombreadas representan mejor la evolución epidemiológica de las ent
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/high_cases_plot.png)
 
 <center>Casos confirmados (barras) y casos estimados (banda clara = intervalo de credibilidad al 90%; banda obscura = intervalo de credibilidad al 50%).</center>
-<br>
 <br>
 *Es de notar que la estimación, no llega al dia en el que actualizamos el reporte, dado que la estimación depende del retraso anteriormente citado, que es en promedio de alrededor de 10 días*.
 
@@ -53,7 +53,6 @@ Este tasa depende de diversos factores entre ellos:
 
 <center>Cambios en la tasa de reproducción efectiva (banda clara = intervalo de credibilidad al 90%; banda obscura = intervalo de credibilidad al 50%).</center>
 <br>
-<br>
 Esta gráfica es de especial interés, ya que el cambio de R en el tiempo responde a intervenciones / politicas públicas (ej. cuarentena, distanciamiento social) o la falta de dichas intervenciones (caso omiso de las medidas de salubridad).
 
 El distanciamiento social disminuye el valor de R en el tiempo, mientras que el caso omiso lo eleva. Las gráficas muestran una linea punteada sobre *R = 1* ya que es el valor objetivo para contener la epidemia, es decir, para que la epidemia se logre mitigar, ambas bandas de la estimación (claras y obscuras) deben encontrarse sobre 1 o por debajo de 1.
@@ -64,7 +63,7 @@ Observar una tendencia a la baja es un signo positivo en relación al control de
 
 - Solo se incluyen estados con al menos 10 casos confirmados en un día para este análisis.
 
-### Casos confirmados vs casos estimados
+### Casos Confirmados vs Casos Estimados
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/cases_plot.png)
 
@@ -72,14 +71,13 @@ Observar una tendencia a la baja es un signo positivo en relación al control de
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/rt_plot.png)
 
-## Resúmen nacional
+## Resumen Nacional
 
 Este resúmen muestra la tasa efectiva de reproducción actual para cada estado además del estimado de casos nuevos diarios.
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/summary_plot.png)
 
-<center>Resúmen Nacional. (barra clara = intervalo de credibilidad al 90%; barra oscura = intervalo de credibilidad al 50%.</center>
-<br>
+<center>Resúmen nacional. (barra clara = intervalo de credibilidad al 90%; barra oscura = intervalo de credibilidad al 50%.</center>
 <br>
 Los estados están ordenados por el número de casos diarios confirmados esperados y codificados por color según el cambio esperado en los casos diarios confirmados. 
 
