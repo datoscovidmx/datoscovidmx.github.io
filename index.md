@@ -106,7 +106,7 @@ Si un estado amplía su capacidad de prueba y comienza a informar una mayor prop
 
 **Lo que es importante para que estos resultados sean imparciales, es que relacionado a las pruebas, la metodología para hacer pruebas de COVID-19 sea consistente. Esto significa que si bien un cambio en el esfuerzo por hacer pruebas, inicialmente introducirá un sesgo, esto se reducirá con el tiempo siempre que dicho esfuerzo permanezca constante a partir de ese momento.**
 
-<div class="flourish-embed flourish-map" data-src="visualisation/2051179" data-url="https://flo.uri.sh/visualisation/2051179/embed"></div> 
+<iframe class="flourish-embed flourish-map" data-src="visualisation/2051179" data-url="https://flo.uri.sh/visualisation/2051179/embed"></iframe>
 
 ### Detalles 
 
