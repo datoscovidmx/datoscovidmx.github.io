@@ -1,3 +1,5 @@
+## Tabla de contenido
+
 - [Seguimiento semanal de COVID-19 en México](#seguimiento-semanal-de-covid-19-en-méxico)
 - [Resumen al 16 de abril de 2020](#resumen-al-16-de-abril-de-2020)
  - [Estados con estimación de casos nuevos diarios más alta](#estados-con-estimación-de-casos-nuevos-diarios-más-alta)
@@ -87,7 +89,7 @@ Los estados están ordenados por el número de casos diarios confirmados esperad
 <iframe src='https://flo.uri.sh/visualisation/2051179/embed' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/2051179/?utm_source=embed&utm_campaign=visualisation/2051179' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 <br>
 <br>
----
+
 ## Métodología
 
 Hicimos una implementación basada en el trabajo experto del [centro de modelado matemático para enfermedades infecciosas](https://cmmid.github.io/), con algunas modificaciones dado el contexto nacional:
