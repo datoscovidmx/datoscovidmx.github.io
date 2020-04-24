@@ -42,6 +42,9 @@ Las áreas sombreadas representan mejor la evolución epidemiológica de las ent
 <br>
 *Es de notar que la estimación, no llega al dia en el que actualizamos el reporte, dado que la estimación depende del retraso anteriormente citado, que es en promedio de alrededor de 10 días*.
 
+## Mapa
+<iframe src='https://flo.uri.sh/visualisation/2051179/embed' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe>
+
 ### Variación de la tasa efectiva de reproducción 
 
 La tasa efectiva de reproducción (R) es un número que mide el potencial de transmisibilidad que tiene una enfermedad infecciosa en una población con individuos suceptibles y no suceptibles (decesos o personas ya contagiadas). En palabras simples, es el promedio de personas infectadas por cada infectado.
@@ -84,11 +87,6 @@ Este resúmen muestra la tasa efectiva de reproducción actual para cada estado 
 Los estados están ordenados por el número de casos diarios confirmados esperados y codificados por color según el cambio esperado en los casos diarios confirmados. 
 
 **La línea punteada indica el valor objetivo de 1 para la tasa efectiva de reproducción que se requiere para el control**
-
-## Mapa
-<iframe src='https://flo.uri.sh/visualisation/2051179/embed' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe>
-<br>
-<br>
 
 ## Métodología
 
