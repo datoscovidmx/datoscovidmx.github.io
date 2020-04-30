@@ -1,4 +1,7 @@
 # Monitoreo epidemiológico de COVID-19 en México
+
+![](https://pbs.twimg.com/profile_banners/1251773678636933120/1587470790/1500x500)
+
 # Resumen al 28 de abril de 2020
 
 Para detalles sobre el equipo que trabajó esta implementación, y como la mantendrémos actualizada: [Contexto sobre el observatorio de datos COVID Mx](https://github.com/datoscovidmx/datoscovidmx.github.io/blob/master/README.md)
