@@ -16,7 +16,7 @@ Para detalles sobre el equipo que trabajó esta implementación, y como la mante
 
 # ¿Por qué monitorear R en el tiempo?
 
-- En cualquier epidemia, <img src="https://render.githubusercontent.com/render/math?math=R(t)"> es la medida conocida como la tasa de reproducción efectivo. Es el número de personas que se infectan por persona infectada en el momento <img src="https://render.githubusercontent.com/render/math?math=t)">. La versión más conocida de este número es la tasa de reproducción básica: <img src="https://render.githubusercontent.com/render/math?math=R_0"> es decir, al inicio de la epidemia, sin embargo esta medida pasa por alto los cambios de comportamiento y las restricciones, es decir, no nos ayuda a evular una intervención (en forma de política pública) en este caso, la cuarentena y el distanciamiento social.
+- En cualquier epidemia, <img src="https://render.githubusercontent.com/render/math?math=R(t)"> es la medida conocida como la tasa de reproducción efectivo. Es el número de personas que se infectan por persona infectada en el momento <img src="https://render.githubusercontent.com/render/math?math=t">. La versión más conocida de este número es la tasa de reproducción básica: <img src="https://render.githubusercontent.com/render/math?math=R_0"> es decir, al inicio de la epidemia, sin embargo esta medida pasa por alto los cambios de comportamiento y las restricciones, es decir, no nos ayuda a evular una intervención (en forma de política pública) en este caso, la cuarentena y el distanciamiento social.
 
 - En palabras simples el valor de <img src="https://render.githubusercontent.com/render/math?math=R(t)">  nos ayuda a: 
  1. Evaluar que tan efectivas han sido las medidas tomadas para controlar un brote 
@@ -29,17 +29,17 @@ Para detalles sobre el equipo que trabajó esta implementación, y como la mante
 
 ## Tabla de contenido
 
-* [Resúmen nacional](##Resumen Nacional)
- * [Distribución geográfica epidemiológica dado el Rt estimado](##Distribución geográfica epidemiológica dado el Rt estimado)
- * [México en el contexto mundial: ¿Estamos desacelerando?](##México en el contexto mundial: ¿Estamos desacelerando?)
-* [Monitoreo para estados con mayor crecimiento esperado](##Monitoreo para estados con mayor crecimiento esperado)
+* [Resúmen nacional](## Resumen Nacional)
+ * [Distribución geográfica epidemiológica dado el Rt estimado](## Distribución geográfica epidemiológica dado el Rt estimado)
+ * [México en el contexto mundial: ¿Estamos desacelerando?](## México en el contexto mundial: ¿Estamos desacelerando?)
+* [Monitoreo para estados con mayor crecimiento esperado](## Monitoreo para estados con mayor crecimiento esperado)
  * Casos confirmados contra casos estimados
  * Evolución de la tasa de reproducción efectiva (Rt)
-* [Monitoreo para el resto de los estados](##Monitoreo para el resto de los estados)
+* [Monitoreo para el resto de los estados](## Monitoreo para el resto de los estados)
  * Casos confirmados contra casos estimados 
  * Evolución de la tasa de reproducción efectiva (Rt) 
- * [Resumen final](##Resumen final)
-* [Metodología](#Metodología)
+ * [Resumen final](## Resumen final)
+* [Metodología](## Metodología)
  * Datos
  * Supuestos
  * Limitaciones
@@ -143,7 +143,7 @@ Dado nuestro análisis, en los siguientes estados se esperan más casos confirma
 | YUCATAN                         | 48 (2 -- 91)                          | Likely increasing              | 1.6 (0.6 -- 2.5)           |
 | ZACATECAS                       | 66 (0 -- 188)                         | Likely increasing              | 3.6 (0.1 -- 7.9)           |
 
-## Métodología
+## Metodología
 
 Hicimos una implementación basada en el trabajo experto del [centro de modelado matemático para enfermedades infecciosas](https://cmmid.github.io/), con algunas modificaciones dado el contexto nacional:
 
