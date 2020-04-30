@@ -69,8 +69,8 @@ Los estados están ordenados por el número de casos diarios confirmados esperad
 
 ## México en el contexto mundial: ¿Estamos desacelerando?
 
-<iframe is="x-frame-bypass" src="https://raw.githubusercontent.com/marianarf/covid19_mexico_analysis/master/log_plot.html" style="border: 0px"></iframe>
- 
+<iframe is="x-frame-bypass" src='https://raw.githubusercontent.com/marianarf/covid19_mexico_analysis/master/log_plot.html' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe>
+
 ## Monitoreo para estados con mayor crecimiento esperado
 
 Dado nuestro análisis, en los siguientes estados se esperan más casos confirmados diarios:
