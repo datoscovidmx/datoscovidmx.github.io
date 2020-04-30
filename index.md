@@ -3,28 +3,6 @@
 
 Para detalles sobre el equipo que trabajó esta implementación, y como la mantendrémos actualizada: [Contexto sobre el observatorio de datos COVID Mx](https://github.com/datoscovidmx/datoscovidmx.github.io/blob/master/README.md)
 
-
-## Tabla de contenido
-
-- ¿Por qué corregir los casos confirmados?
-- ¿Por qué monitorear R en el tiempo?
-- Resúmen nacional
- - Distribución geográfica epidemiológica dado el Rt estimado
- - México en el contexto mundial: ¿Estamos desacelerando?
-- Monitoreo para estados con mayor crecimiento esperado
- - Casos confirmados contra casos estimados
- - Evolución de la tasa de reproducción efectiva (Rt)
-- Monitoreo para el resto de los estados
- - Casos confirmados contra casos estimados 
- - Evolución de la tasa de reproducción efectiva (Rt) 
- - Resumen final
-- Metodología
- - Datos
- - Supuestos
- - Limitaciones
- - Detalles
- - Contacto
- 
 # ¿Por qué corregir los casos confirmados?
 
 - Los casos confirmados son una muestra estadística que contiene una serie de retrasos importantes entre el número que vemos en el presente y el día que sucedió dicha infección, estos retrasos los comprenden mayormente dos fenómenos:
@@ -36,19 +14,38 @@ Para detalles sobre el equipo que trabajó esta implementación, y como la mante
 
 - Para tener en cuenta esto, se tiene que reescalar el número estimado de casos de casos corregidos hacia el presente. Dicho re escalamiento fue efectuado con una regresión negativa binomial, que permite, después de transformar las fechas de confirmación a fechas de inicio de sintomas y contar el número de casos por día, obtener una muestra de la cantidad de casos que posiblemente ocurrieron pero que no se confirmaron.
 
-
 # ¿Por qué monitorear R en el tiempo?
 
-- En cualquier epidemia, $ R_t $ es la medida conocida como la tasa de reproducción efectivo. Es el número de personas que se infectan por persona infectada en el momento $ t $. La versión más conocida de este número es la tasa de reproducción básica: $ R_0 $ es decir, al inicio de la epidemia, sin embargo esta medida pasa por alto los cambios de comportamiento y las restricciones, es decir, no nos ayuda a evular una intervención (en forma de política pública) en este caso, la cuarentena y el distanciamiento social.
+- En cualquier epidemia, <img src="https://render.githubusercontent.com/render/math?math=R(t)"> es la medida conocida como la tasa de reproducción efectivo. Es el número de personas que se infectan por persona infectada en el momento <img src="https://render.githubusercontent.com/render/math?math=t)">. La versión más conocida de este número es la tasa de reproducción básica: <img src="https://render.githubusercontent.com/render/math?math=R_0"> es decir, al inicio de la epidemia, sin embargo esta medida pasa por alto los cambios de comportamiento y las restricciones, es decir, no nos ayuda a evular una intervención (en forma de política pública) en este caso, la cuarentena y el distanciamiento social.
 
-- En palabras simples el valor de $ R_t $ nos ayuda a: 
+- En palabras simples el valor de <img src="https://render.githubusercontent.com/render/math?math=R(t)">  nos ayuda a: 
  1. Evaluar que tan efectivas han sido las medidas tomadas para controlar un brote 
  2. Como resultado, nos ayuda a comprender si debemos aumentar o reducir las restricciones para tratar de equilibrar la parte económica con el problema de salud pública.
  
-- Las gráficas muestran una linea punteada sobre *R = 1* ya que es el valor objetivo para contener la epidemia, es decir, para que la epidemia se logre mitigar, ambas bandas de la estimación (claras y obscuras) deben encontrarse sobre 1 o por debajo de 1, por un lapso de tiempo.
+- Las gráficas muestran una linea punteada sobre <img src="https://render.githubusercontent.com/render/math?math=R(t)=1">  ya que es el valor objetivo para contener la epidemia, es decir, para que la epidemia se logre mitigar, ambas bandas de la estimación (claras y obscuras) deben encontrarse sobre 1 o por debajo de 1, por un lapso de tiempo.
 
 - Observar una tendencia a la baja es un signo positivo en relación al control de la epidemia, sin embargo mientras el número no se encuentre por debajo de 1 por el lapso de tiempo suficiente como para que el rastreo epidemiológico de los casos vuelva a ser posible, seguiran existiendo casos diarios y no se puede concluir que existe dicho control sobre la epidemia.
 
+
+## Tabla de contenido
+
+* [Resúmen nacional](#Resumen Nacional)
+ * [Distribución geográfica epidemiológica dado el Rt estimado](#Distribución geográfica epidemiológica dado el Rt estimado)
+ * [México en el contexto mundial: ¿Estamos desacelerando?](#México en el contexto mundial: ¿Estamos desacelerando?)
+* [Monitoreo para estados con mayor crecimiento esperado](#Monitoreo para estados con mayor crecimiento esperado)
+ * Casos confirmados contra casos estimados
+ * Evolución de la tasa de reproducción efectiva (Rt)
+* [Monitoreo para el resto de los estados](#Monitoreo para el resto de los estados)
+ * Casos confirmados contra casos estimados 
+ * Evolución de la tasa de reproducción efectiva (Rt) 
+ * [Resumen final](#Resumen final)
+* [Metodología](#Metodología)
+ * Datos
+ * Supuestos
+ * Limitaciones
+ * Detalles
+ * Contacto
+ 
 ## Resumen Nacional
 
 Este resúmen muestra la tasa efectiva de reproducción mas actualizada para cada estado además del estimado de casos nuevos diarios.
