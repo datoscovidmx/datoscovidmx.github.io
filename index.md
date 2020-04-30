@@ -29,17 +29,17 @@ Para detalles sobre el equipo que trabajó esta implementación, y como la mante
 
 ## Tabla de contenido
 
-* [Resúmen nacional](## Resumen Nacional)
- * [Distribución geográfica epidemiológica dado el Rt estimado](## Distribución geográfica epidemiológica dado el Rt estimado)
- * [México en el contexto mundial: ¿Estamos desacelerando?](## México en el contexto mundial: ¿Estamos desacelerando?)
-* [Monitoreo para estados con mayor crecimiento esperado](## Monitoreo para estados con mayor crecimiento esperado)
+* [Resúmen nacional](##Resumen Nacional)
+ * [Distribución geográfica epidemiológica dado el Rt estimado](##Distribución geográfica epidemiológica dado el Rt estimado)
+ * [México en el contexto mundial: ¿Estamos desacelerando?](##México en el contexto mundial: ¿Estamos desacelerando?)
+* [Monitoreo para estados con mayor crecimiento esperado](##Monitoreo para estados con mayor crecimiento esperado)
  * Casos confirmados contra casos estimados
  * Evolución de la tasa de reproducción efectiva (Rt)
-* [Monitoreo para el resto de los estados](## Monitoreo para el resto de los estados)
+* [Monitoreo para el resto de los estados](##Monitoreo para el resto de los estados)
  * Casos confirmados contra casos estimados 
  * Evolución de la tasa de reproducción efectiva (Rt) 
- * [Resumen final](## Resumen final)
-* [Metodología](## Metodología)
+ * [Resumen final](##Resumen final)
+* [Metodología](##Metodología)
  * Datos
  * Supuestos
  * Limitaciones
