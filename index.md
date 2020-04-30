@@ -65,7 +65,7 @@ Los estados están ordenados por el número de casos diarios confirmados esperad
 
 ## Distribución geográfica epidemiológica dado el Rt estimado
 
-<iframe is="x-frame-bypass" src='https://flo.uri.sh/visualisation/2051179/embed' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe>
+<iframe is="x-frame-bypass" src='https://flo.uri.sh/visualisation/2167566/embed' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe>
 
 ## México en el contexto mundial: ¿Estamos desacelerando?
 
