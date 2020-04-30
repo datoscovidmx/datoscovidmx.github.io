@@ -71,6 +71,11 @@ Los estados están ordenados por el número de casos diarios confirmados esperad
 
 <iframe is="x-frame-bypass" src='https://raw.githubusercontent.com/marianarf/covid19_mexico_analysis/master/log_plot.html' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe>
 
+2 ----> .... <---
+<object data="https://raw.githubusercontent.com/marianarf/covid19_mexico_analysis/master/log_plot.html" width="100" height="600" type="text/html">
+    Gráfica, test
+</object>
+
 ## Monitoreo para estados con mayor crecimiento esperado
 
 Dado nuestro análisis, en los siguientes estados se esperan más casos confirmados diarios:
