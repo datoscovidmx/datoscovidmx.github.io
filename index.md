@@ -10,7 +10,7 @@ Para detalles sobre el equipo que trabajó esta implementación, y como la mante
 - ¿Por qué monitorear R en el tiempo?
 - Resúmen nacional
  - Distribución geográfica epidemiológica dado el Rt estimado
- - Gráfica de Mariana
+ - México en el contexto mundial: ¿Estamos desacelerando?
 - Monitoreo para estados con mayor crecimiento esperado
  - Casos confirmados contra casos estimados
  - Evolución de la tasa de reproducción efectiva (Rt)
@@ -67,10 +67,9 @@ Los estados están ordenados por el número de casos diarios confirmados esperad
 
 <iframe src='https://flo.uri.sh/visualisation/2051179/embed' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe>
 
-## Gráfica de mariana :)
+## México en el contexto mundial: ¿Estamos desacelerando?
 
-Describir la gráfica
-
+<iframe src="https://raw.githubusercontent.com/marianarf/covid19_mexico_analysis/master/log_plot.html" style="border: 0px"></iframe>
  
 ## Monitoreo para estados con mayor crecimiento esperado
 
