@@ -29,22 +29,27 @@ Para detalles sobre el equipo que trabajó esta implementación, y como la mante
 
 ## Tabla de contenido
 
-* [Resúmen nacional](#Resumen Nacional)
- * [Distribución geográfica epidemiológica dado el Rt estimado](#Distribución geográfica epidemiológica dado el Rt estimado)
- * [México en el contexto mundial: ¿Estamos desacelerando?](#México en el contexto mundial: ¿Estamos desacelerando?)
-* [Monitoreo para estados con mayor crecimiento esperado](#Monitoreo para estados con mayor crecimiento esperado)
- * Casos confirmados contra casos estimados
- * Evolución de la tasa de reproducción efectiva (Rt)
-* [Monitoreo para el resto de los estados](#Monitoreo para el resto de los estados)
- * Casos confirmados contra casos estimados 
- * Evolución de la tasa de reproducción efectiva (Rt) 
- * [Resumen final](#Resumen final)
-* [Metodología](#Metodología)
- * Datos
- * Supuestos
- * Limitaciones
- * Detalles
- * Contacto
+- [Monitoreo epidemiológico de COVID-19 en México](#monitoreo-epidemiol-gico-de-covid-19-en-m-xico)
+- [Resumen al 28 de abril de 2020](#resumen-al-28-de-abril-de-2020)
+- [¿Por qué corregir los casos confirmados?](#-por-qu--corregir-los-casos-confirmados-)
+- [¿Por qué monitorear R en el tiempo?](#-por-qu--monitorear-r-en-el-tiempo-)
+  - [Tabla de contenido]
+  * [Resumen Nacional](#resumen-nacional)
+  * [Distribución geográfica epidemiológica dado el Rt estimado](#distribuci-n-geogr-fica-epidemiol-gica-dado-el-rt-estimado)
+  * [México en el contexto mundial: ¿Estamos desacelerando?](#m-xico-en-el-contexto-mundial---estamos-desacelerando-)
+  * [Monitoreo para estados con mayor crecimiento esperado](#monitoreo-para-estados-con-mayor-crecimiento-esperado)
+    + [Casos confirmados contra casos estimados](#casos-confirmados-contra-casos-estimados)
+    + [Evolución de la tasa de reproducción efectiva (Rt)](#evoluci-n-de-la-tasa-de-reproducci-n-efectiva--rt-)
+  * [Monitoreo para el resto de los estados](#monitoreo-para-el-resto-de-los-estados)
+    + [Casos confirmados contra casos estimados](#casos-confirmados-contra-casos-estimados-1)
+    + [Evolución de la tasa de reproducción efectiva (Rt)](#evoluci-n-de-la-tasa-de-reproducci-n-efectiva--rt--1)
+  * [Resumen final](#resumen-final)
+  * [Metodología](#metodolog-a)
+    + [Datos](#datos)
+    + [Supuestos](#supuestos)
+    + [Limitaciones](#limitaciones)
+    + [Detalles](#detalles)
+    + [Contacto](#contacto)
  
 ## Resumen Nacional
 
