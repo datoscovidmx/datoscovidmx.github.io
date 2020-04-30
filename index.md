@@ -62,7 +62,6 @@ Los estados están ordenados por el número de casos diarios confirmados esperad
 
 **La línea punteada indica el valor objetivo de 1 para la tasa efectiva de reproducción que se requiere para el control**
 
-
 ## Distribución geográfica epidemiológica dado el Rt estimado
 
 <iframe is="x-frame-bypass" src='https://flo.uri.sh/visualisation/2167566/embed' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe>
@@ -70,6 +69,8 @@ Los estados están ordenados por el número de casos diarios confirmados esperad
 ## México en el contexto mundial: ¿Estamos desacelerando?
 
 <iframe is="x-frame-bypass" src='https://htmlpreview.github.io/?https://raw.githubusercontent.com/marianarf/covid19_mexico_analysis/master/log_plot.html' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe>
+
+¿Vamos ganando o  perdiendo la batalla contra COVID-19? ¿Cómo sabemos si las medidas para frenar la epidemia están funcionando? Esta gráfica interactiva usa escalas logarítmicas, de modo que el el crecimiento exponencial puro se ve como una línea recta. El uso de estas escalas también tiende a acentuar el crecimiento o disminución en el comportamiento de la pandemia para mostrar visualmente la evolución de la epidemia sobre el tiempo y poner en evidencia cuándo y dónde es que las medidas aplicadas parecen ayudar a "frenar la línea" (en este caso) de crecimiento exponencial.
 
 ## Monitoreo para estados con mayor crecimiento esperado
 
