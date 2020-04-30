@@ -33,7 +33,6 @@ Para detalles sobre el equipo que trabajó esta implementación, y como la mante
 - [Resumen al 28 de abril de 2020](#resumen-al-28-de-abril-de-2020)
 - [¿Por qué corregir los casos confirmados?](#-por-qu--corregir-los-casos-confirmados-)
 - [¿Por qué monitorear R en el tiempo?](#-por-qu--monitorear-r-en-el-tiempo-)
-  - [Tabla de contenido]
   * [Resumen Nacional](#resumen-nacional)
   * [Distribución geográfica epidemiológica dado el Rt estimado](#distribuci-n-geogr-fica-epidemiol-gica-dado-el-rt-estimado)
   * [México en el contexto mundial: ¿Estamos desacelerando?](#m-xico-en-el-contexto-mundial---estamos-desacelerando-)
