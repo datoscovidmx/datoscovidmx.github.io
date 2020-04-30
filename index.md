@@ -33,16 +33,16 @@ Para detalles sobre el equipo que trabajó esta implementación, y como la mante
 ## Tabla de contenido
 
   * [Resumen Nacional](#resumen-nacional)
-  * [Distribución geográfica epidemiológica dado el Rt estimado](#distribuci-n-geogr-fica-epidemiol-gica-dado-el-rt-estimado)
-  * [México en el contexto mundial: ¿Estamos desacelerando?](#m-xico-en-el-contexto-mundial---estamos-desacelerando-)
+  * [Distribución geográfica epidemiológica dado el Rt estimado](#distribución-geográfica-epidemiológica-dado-el-rt-estimado)
+  * [México en el contexto mundial: ¿Estamos desacelerando?](#méxico-en-el-contexto-mundial---estamos-desacelerando-)
   * [Monitoreo para estados con mayor crecimiento esperado](#monitoreo-para-estados-con-mayor-crecimiento-esperado)
     + [Casos confirmados contra casos estimados](#casos-confirmados-contra-casos-estimados)
-    + [Evolución de la tasa de reproducción efectiva (Rt)](#evoluci-n-de-la-tasa-de-reproducci-n-efectiva--rt-)
+    + [Evolución de la tasa de reproducción efectiva (Rt)](#evolución-de-la-tasa-de-reproducción-efectiva-rt)
   * [Monitoreo para el resto de los estados](#monitoreo-para-el-resto-de-los-estados)
     + [Casos confirmados contra casos estimados](#casos-confirmados-contra-casos-estimados-1)
-    + [Evolución de la tasa de reproducción efectiva (Rt)](#evoluci-n-de-la-tasa-de-reproducci-n-efectiva--rt--1)
+    + [Evolución de la tasa de reproducción efectiva (Rt)](#evolución-de-la-tasa-de-reproducción-efectiva-rt-para-el-resto-de-los-estados)
   * [Resumen final](#resumen-final)
-  * [Metodología](#metodolog-a)
+  * [Metodología](#metodología)
     + [Datos](#datos)
     + [Supuestos](#supuestos)
     + [Limitaciones](#limitaciones)
@@ -107,7 +107,7 @@ Dado nuestro análisis, en los siguientes estados se esperan más casos confirma
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/mexico/regional-summary/cases_plot.png)
 
-### Evolución de la tasa de reproducción efectiva (Rt)
+### Evolución de la tasa de reproducción efectiva (Rt) para el resto de los estados
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/mexico/regional-summary/rt_plot.png)
 
