@@ -34,7 +34,7 @@ Para detalles sobre el equipo que trabajó esta implementación, y como la mante
 
   * [Resumen Nacional](#resumen-nacional)
   * [Distribución geográfica epidemiológica dado el Rt estimado](#distribución-geográfica-epidemiológica-dado-el-rt-estimado)
-  * [México en el contexto mundial: ¿Estamos desacelerando?](#méxico-en-el-contexto-mundial---estamos-desacelerando-)
+  * [México en el contexto mundial: ¿Estamos desacelerando?](#méxico-en-el-contexto-mundial-¿estamos-desacelerando?)
   * [Monitoreo para estados con mayor crecimiento esperado](#monitoreo-para-estados-con-mayor-crecimiento-esperado)
     + [Casos confirmados contra casos estimados](#casos-confirmados-contra-casos-estimados)
     + [Evolución de la tasa de reproducción efectiva (Rt)](#evolución-de-la-tasa-de-reproducción-efectiva-rt)
