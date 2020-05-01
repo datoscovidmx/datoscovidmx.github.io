@@ -76,11 +76,11 @@ Los estados están ordenados por el número de casos diarios confirmados esperad
 
 Dado nuestro análisis, en los siguientes estados se esperan más casos confirmados diarios:
 
-- Aguascalientes
+- Baja California
 - Chihuahua
 - Ciudad de México
 - Jalisco
-- Querétaro
+- Sinaloa
 - Zacatecas
 
 ### Casos confirmados contra casos estimados
@@ -172,5 +172,5 @@ Los detalles sobre la metodología se pueden encontrar en el proyecto original [
 
 ### Contacto 
 
-![@DatosCovid](https://twitter.com/datoscovid)
-![Correo](hola@datoscovid.mx)
+[@DatosCovid](https://twitter.com/datoscovid)
+[Correo](hola@datoscovid.mx)
