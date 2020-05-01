@@ -11,7 +11,8 @@ Para detalles sobre el equipo que trabajó esta implementación y cómo mantendr
 - Los casos confirmados son una muestra estadística que contiene una serie de retrasos importantes entre el número que vemos en el presente y el día que sucedió dicha infección, estos retrasos los comprenden mayormente dos fenómenos:
   1) El retraso en el tiempo existente entre la fecha de inicio de síntomas del paciente y la fecha de confirmación oficial del caso.
   2) El tiempo que necesita el virus para incubarse en el cuerpo.
-<br>
+
+
 - Al pasar de las fechas de confirmación a las fechas de inicio de sintomas, es importante tener en cuenta que la cantidad total de casos confirmados tendrá dicho retraso contra la cantidad de casos que realmente han aparecido, ya que existe un retraso entre la aparición y la contabilización del caso en la confirmación.
 
 - Para tener en cuenta esto, se tiene que reescalar el número estimado de casos de casos corregidos hacia el presente. Dicho re escalamiento fue efectuado con una regresión negativa binomial, que permite, después de transformar las fechas de confirmación a fechas de inicio de sintomas y contar el número de casos por día, obtener una muestra de la cantidad de casos que posiblemente ocurrieron pero que no se confirmaron.
