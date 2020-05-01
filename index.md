@@ -11,7 +11,9 @@ Para detalles sobre el equipo que trabajó esta implementación y cómo mantendr
 - Los casos confirmados son una muestra estadística que contiene una serie de retrasos importantes entre el número que vemos en el presente y el día que sucedió dicha infección, estos retrasos los comprenden mayormente dos fenómenos:
   1) El retraso en el tiempo existente entre la fecha de inicio de síntomas del paciente y la fecha de confirmación oficial del caso.
   2) El tiempo que necesita el virus para incubarse en el cuerpo.
+
 - Al pasar de las fechas de confirmación a las fechas de inicio de sintomas, es importante tener en cuenta que la cantidad total de casos confirmados tendrá dicho retraso contra la cantidad de casos que realmente han aparecido, ya que existe un retraso entre la aparición y la contabilización del caso en la confirmación.
+
 - Para tener en cuenta esto, se tiene que reescalar el número estimado de casos de casos corregidos hacia el presente. Dicho re escalamiento fue efectuado con una regresión negativa binomial, que permite, después de transformar las fechas de confirmación a fechas de inicio de sintomas y contar el número de casos por día, obtener una muestra de la cantidad de casos que posiblemente ocurrieron pero que no se confirmaron.
 
 # ¿Por qué monitorear R en el tiempo? Explicación de Rt.
@@ -19,10 +21,13 @@ Para detalles sobre el equipo que trabajó esta implementación y cómo mantendr
 - **<img src="https://render.githubusercontent.com/render/math?math=R(t)">  es una medida clave de qué tan rápido está creciendo el virus: es el número promedio de personas infectadas por una persona infecciosa.**
   1. Si Rt está por encima de 1.0, el virus se propagará rápidamente.
   2. Cuando Rt está por debajo de 1.0, el virus se irá propagando cada vez menos.
+
 - En cualquier epidemia, <img src="https://render.githubusercontent.com/render/math?math=R(t)">  es la medida conocida como la tasa de reproducción efectivo. Es el número de personas que se infectan por persona infectada en el momento <img src="https://render.githubusercontent.com/render/math?math=t">. La versión más conocida de este número es la tasa de reproducción básica <img src="https://render.githubusercontent.com/render/math?math=R_0">  que es la tasa de reproducción al inicio de la pandemia. Sin embargo, esta medida pasa por alto los cambios de comportamiento y política pública y no nos ayuda a evaluar intervenciones como la cuarentena y el distanciamiento social.
+
 - Dicho de otra forma, el valor de <img src="https://render.githubusercontent.com/render/math?math=R(t)">  nos ayuda a:
   1. Evaluar que tan efectivas han sido las medidas tomadas para controlar un brote.
   2. decidir si debemos aumentar o reducir las restricciones para tratar de equilibrar la parte económica con el problema de salud pública.
+  
 - Las gráficas muestran una linea punteada por encima de <img src="https://render.githubusercontent.com/render/math?math=R(t)=1">  ya que es el valor objetivo para contener la epidemia. **Para que la epidemia se logre mitigar, las bandas de estimación deben estar en 1 o por debajo de 1, por un lapso de tiempo.**
 
 - A pesar que una tendencia a la baja es un señal positivo de control de la epidemia, mientras el número no se encuentre por debajo de 1 durante un lapso de tiempo suficiente como para que el rastreo epidemiológico de los casos vuelva a ser posible, seguiran existiendo casos diarios y en ese caso no se puede concluir que exista dicho control sobre la epidemia.
