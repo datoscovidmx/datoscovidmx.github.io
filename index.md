@@ -113,39 +113,36 @@ Dado nuestro análisis, en los siguientes estados se esperan más casos confirma
 
 ## Resumen final
 
-| State                           | New confirmed cases by infection date | Expected change in daily cases | Effective reproduction no. |
-|---------------------------------|---------------------------------------|--------------------------------|----------------------------|
-| AGUASCALIENTES                  | 73 (0 -- 207)                         | Unsure                         | 2.3 (0 -- 4.8)             |
-| BAJA CALIFORNIA                 | 48 (2 -- 93)                          | Likely decreasing              | 0.8 (0.4 -- 1.2)           |
-| BAJA CALIFORNIA SUR             | 51 (0 -- 135)                         | Unsure                         | 2.6 (0.1 -- 5.5)           |
-| CAMPECHE                        | 59 (0 -- 173)                         | Likely increasing              | 3.7 (0.1 -- 8.7)           |
-| CHIAPAS                         | 65 (0 -- 159)                         | Likely increasing              | 2.6 (0.4 -- 4.9)           |
-| CHIHUAHUA                       | 77 (0 -- 223)                         | Unsure                         | 1.9 (0.1 -- 4.1)           |
-| CIUDAD DE MEXICO                | 113 (37 -- 189)                       | Decreasing                     | 0.7 (0.5 -- 0.9)           |
-| COAHUILA                        | 31 (1 -- 59)                          | Likely increasing              | 1.7 (0.6 -- 2.6)           |
-| COAHUILA DE ZARAGOZA            | 58 (0 -- 165)                         | Unsure                         | 2.1 (0.2 -- 4.1)           |
-| DURANGO                         | 31 (0 -- 64)                          | Likely increasing              | 2.8 (0.1 -- 5.3)           |
-| GUANAJUATO                      | 59 (0 -- 167)                         | Unsure                         | 2.1 (0.3 -- 4)             |
-| GUERRERO                        | 38 (0 -- 77)                          | Likely increasing              | 1.8 (0.4 -- 2.9)           |
-| HIDALGO                         | 33 (0 -- 65)                          | Likely increasing              | 1.6 (0.4 -- 2.5)           |
-| JALISCO                         | 99 (0 -- 250)                         | Likely increasing              | 3 (0.2 -- 6.2)             |
-| MEXICO                          | 67 (5 -- 129)                         | Likely decreasing              | 0.6 (0.3 -- 1)             |
-| MICHOACAN                       | 27 (0 -- 52)                          | Likely increasing              | 1.7 (0.5 -- 2.8)           |
-| MICHOACAN DE OCAMPO             | 41 (0 -- 76)                          | Unsure                         | 1.5 (0.4 -- 2.4)           |
-| MORELOS                         | 55 (1 -- 109)                         | Likely increasing              | 1.8 (0.5 -- 2.9)           |
-| NUEVO LEON                      | 58 (0 -- 182)                         | Unsure                         | 2.2 (0.1 -- 4.7)           |
-| OAXACA                          | 41 (0 -- 109)                         | Likely increasing              | 2.5 (0.2 -- 5)             |
-| PUEBLA                          | 46 (0 -- 88)                          | Unsure                         | 1.3 (0.5 -- 2.2)           |
-| QUERETARO                       | 79 (0 -- 229)                         | Likely increasing              | 4.1 (0.1 -- 8.9)           |
-| QUINTANA ROO                    | 52 (0 -- 104)                         | Unsure                         | 1.1 (0.4 -- 1.8)           |
-| SINALOA                         | 79 (3 -- 154)                         | Unsure                         | 1.2 (0.4 -- 1.9)           |
-| SONORA                          | 28 (0 -- 54)                          | Likely increasing              | 1.8 (0.5 -- 3.1)           |
-| TABASCO                         | 68 (4 -- 127)                         | Unsure                         | 1 (0.4 -- 1.5)             |
-| TAMAULIPAS                      | 37 (2 -- 70)                          | Likely increasing              | 1.4 (0.6 -- 2.2)           |
-| TLAXCALA                        | 47 (0 -- 103)                         | Likely increasing              | 2.3 (0.3 -- 4.2)           |
-| VERACRUZ DE IGNACIO DE LA LLAVE | 48 (4 -- 92)                          | Unsure                         | 1.3 (0.6 -- 1.9)           |
-| YUCATAN                         | 48 (2 -- 91)                          | Likely increasing              | 1.6 (0.6 -- 2.5)           |
-| ZACATECAS                       | 66 (0 -- 188)                         | Likely increasing              | 3.6 (0.1 -- 7.9)           |
+| State               | New confirmed cases by infection date | Expected change in daily cases | Effective reproduction no. |
+|---------------------|---------------------------------------|--------------------------------|----------------------------|
+| AGUASCALIENTES      | 43 (0 -- 134)                         | Unsure                         | 1.9 (0.1 -- 4.1)           |
+| BAJA CALIFORNIA     | 76 (0 -- 209)                         | Unsure                         | 1 (0.3 -- 1.9)             |
+| BAJA CALIFORNIA SUR | 36 (0 -- 78)                          | Unsure                         | 2.3 (0.1 -- 4.3)           |
+| CAMPECHE            | 47 (0 -- 138)                         | Likely increasing              | 3.2 (0 -- 6.8)             |
+| CHIAPAS             | 22 (0 -- 42)                          | Likely increasing              | 1.7 (0.5 -- 2.7)           |
+| CHIHUAHUA           | 61 (0 -- 192)                         | Unsure                         | 1.7 (0.1 -- 3.6)           |
+| CIUDAD DE MEXICO    | 90 (13 -- 175)                        | Decreasing                     | 0.6 (0.4 -- 0.9)           |
+| COAHUILA            | 43 (0 -- 125)                         | Unsure                         | 1.8 (0.1 -- 3.8)           |
+| DURANGO             | 35 (0 -- 72)                          | Likely increasing              | 3.1 (0.1 -- 6)             |
+| GUANAJUATO          | 44 (0 -- 128)                         | Unsure                         | 1.9 (0.1 -- 4)             |
+| GUERRERO            | 38 (0 -- 76)                          | Likely increasing              | 1.8 (0.4 -- 3.1)           |
+| HIDALGO             | 32 (0 -- 65)                          | Likely increasing              | 1.6 (0.5 -- 2.7)           |
+| JALISCO             | 56 (0 -- 183)                         | Unsure                         | 2 (0.1 -- 4.8)             |
+| MEXICO              | 55 (5 -- 105)                         | Decreasing                     | 0.6 (0.3 -- 0.9)           |
+| MICHOACAN           | 33 (2 -- 66)                          | Likely increasing              | 1.5 (0.5 -- 2.4)           |
+| MORELOS             | 37 (2 -- 68)                          | Likely increasing              | 1.5 (0.6 -- 2.3)           |
+| NUEVO LEON          | 33 (0 -- 70)                          | Unsure                         | 1.9 (0.2 -- 3.5)           |
+| PUEBLA              | 37 (2 -- 70)                          | Unsure                         | 1.2 (0.5 -- 1.9)           |
+| QUINTANA ROO        | 29 (0 -- 57)                          | Unsure                         | 1 (0.3 -- 1.5)             |
+| SAN LUIS POTOSI     | 27 (0 -- 52)                          | Likely increasing              | 3.3 (0.5 -- 6.2)           |
+| SINALOA             | 52 (0 -- 151)                         | Unsure                         | 1 (0.1 -- 1.7)             |
+| SONORA              | 40 (0 -- 87)                          | Likely increasing              | 2.2 (0.3 -- 4.3)           |
+| TABASCO             | 48 (4 -- 87)                          | Unsure                         | 0.9 (0.4 -- 1.3)           |
+| TAMAULIPAS          | 41 (3 -- 79)                          | Likely increasing              | 1.5 (0.5 -- 2.4)           |
+| TLAXCALA            | 32 (0 -- 60)                          | Likely increasing              | 1.9 (0.5 -- 3.2)           |
+| VERACRUZ            | 50 (0 -- 93)                          | Unsure                         | 1.2 (0.5 -- 1.9)           |
+| YUCATAN             | 42 (3 -- 77)                          | Likely increasing              | 1.5 (0.6 -- 2.4)           |
+| ZACATECAS           | 68 (0 -- 201)                         | Likely increasing              | 4.3 (0 -- 9.8)             |
 
 ## Metodología
 
