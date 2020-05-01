@@ -57,10 +57,10 @@ Este resúmen muestra la tasa efectiva de reproducción mas actualizada para cad
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/mexico/regional-summary/summary_plot.png)
 
-<center>Resúmen nacional. (barra clara = intervalo de credibilidad al 90%; barra oscura = intervalo de credibilidad al 50%.</center>
+<center>Resúmen nacional. </i>(barra clara = intervalo de credibilidad al 90%; barra oscura = intervalo de credibilidad al 50%.</i></center>
 <br>
 
-Los estados están ordenados por el número de casos diarios confirmados esperados y codificados por color según el **cambio esperado en los casos diarios confirmados**. 
+Los estados están ordenados por el número de casos diarios confirmados esperados y codificados por color según el cambio esperado en los casos diarios confirmados.
 
 **La línea punteada indica el valor objetivo de 1 para la tasa efectiva de reproducción que se requiere para el control**
 
@@ -89,7 +89,7 @@ Dado nuestro análisis, en los siguientes estados se esperan más casos confirma
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/mexico/regional-summary/high_cases_plot.png)
 
-<center>Casos confirmados (barras) y casos estimados (banda clara = intervalo de credibilidad al 90%; banda obscura = intervalo de credibilidad al 50%). La confianza en los valores estimados se indica por transparencia, una transparencia alta corresponde a una confianza reducida.</center>
+<center>Casos confirmados. <i>(barras) y casos estimados (banda clara = intervalo de credibilidad al 90%; banda obscura = intervalo de credibilidad al 50%). La confianza en los valores estimados se indica por transparencia: una transparencia alta corresponde a una confianza reducida.</i></center>
 <br>
 *Es de notar que la estimación, no llega al dia en el que actualizamos el reporte, dado que la estimación depende del retraso anteriormente citado, que es en promedio de alrededor de 10 días*.
 
@@ -102,7 +102,7 @@ Dado nuestro análisis, en los siguientes estados se esperan más casos confirma
 
 ## Monitoreo para el resto de los estados
 
-- Solo se incluyen estados con **al menos 10 casos confirmados en un día** para este análisis.
+- **Solo se incluyen estados con al menos 10 casos confirmados en un día para este análisis.**
 
 ### Casos confirmados contra casos estimados
 
