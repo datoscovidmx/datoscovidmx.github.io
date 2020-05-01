@@ -28,7 +28,7 @@ Para detalles sobre el equipo que trabajó esta implementación y cómo mantendr
 1. Evaluar que tan efectivas han sido las medidas tomadas para controlar un brote.
 2. decidir si debemos aumentar o reducir las restricciones para tratar de equilibrar la parte económica con el problema de salud pública.
  
-- Las gráficas muestran una linea punteada por encima de <img src="https://render.githubusercontent.com/render/math?math=R(t)=1">  ya que es el valor objetivo para contener la epidemia. Es decir, **para que la epidemia se logre mitigar**, las bandas de estimación deben encontrarse **ya sea en 1 o por debajo de 1** por un lapso de tiempo.
+- Las gráficas muestran una linea punteada por encima de <img src="https://render.githubusercontent.com/render/math?math=R(t)=1">  ya que es el valor objetivo para contener la epidemia. **Para que la epidemia se logre mitigar, las bandas de estimación deben estar en 1 o por debajo de 1, por un lapso de tiempo.**
 
 - A pesar que una tendencia a la baja es un señal positivo de control de la epidemia, mientras el número no se encuentre por debajo de 1 durante un lapso de tiempo suficiente como para que el rastreo epidemiológico de los casos vuelva a ser posible, seguiran existiendo casos diarios y en ese caso no se puede concluir que exista dicho control sobre la epidemia.
 
