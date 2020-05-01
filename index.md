@@ -52,7 +52,7 @@ Este resúmen muestra la tasa efectiva de reproducción mas actualizada para cad
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/mexico/regional-summary/summary_plot.png)
 
-<center>Resúmen nacional. _(barra clara = intervalo de credibilidad al 90%; barra oscura = intervalo de credibilidad al 50%._</center>
+<center>Resúmen nacional. (barra clara = intervalo de credibilidad al 90%; barra oscura = intervalo de credibilidad al 50%.</center>
 <br>
 
 Los estados están ordenados por el número de casos diarios confirmados esperados y codificados por color según el cambio esperado en los casos diarios confirmados.
@@ -84,7 +84,7 @@ Dado nuestro análisis, en los siguientes estados se esperan más casos confirma
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/mexico/regional-summary/high_cases_plot.png)
 
-<center>Casos confirmados. _(barras) y casos estimados (banda clara = intervalo de credibilidad al 90%; banda obscura = intervalo de credibilidad al 50%). La confianza en los valores estimados se indica por transparencia: una transparencia alta corresponde a una confianza reducida._</center>
+<center>Casos confirmados contra casos estimados (banda clara = intervalo de credibilidad al 90%; banda obscura = intervalo de credibilidad al 50%). La confianza en los valores estimados se indica por transparencia: una transparencia alta corresponde a una confianza reducida.</center>
 <br>
 *Es de notar que la estimación, no llega al dia en el que actualizamos el reporte, dado que la estimación depende del retraso anteriormente citado, que es en promedio de alrededor de 10 días*.
 
