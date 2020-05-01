@@ -24,7 +24,7 @@ Para detalles sobre el equipo que trabajó esta implementación y cómo mantendr
 
 - En cualquier epidemia, <img src="https://render.githubusercontent.com/render/math?math=R(t)">  es la medida conocida como la tasa de reproducción efectivo. Es el número de personas que se infectan por persona infectada en el momento <img src="https://render.githubusercontent.com/render/math?math=t">. La versión más conocida de este número es la tasa de reproducción básica <img src="https://render.githubusercontent.com/render/math?math=R_0">  que es la tasa de reproducción al inicio de la pandemia. Sin embargo, esta medida pasa por alto los cambios de comportamiento y política pública y no nos ayuda a evaluar intervenciones como la cuarentena y el distanciamiento social.
 
-- Dicho de otra forma, el valor de <img src="https://render.githubusercontent.com/render/math?math=R(t)">  nos ayuda
+- Dicho de otra forma, el valor de <img src="https://render.githubusercontent.com/render/math?math=R(t)">  nos ayuda a:
 1. Evaluar que tan efectivas han sido las medidas tomadas para controlar un brote.
 2. decidir si debemos aumentar o reducir las restricciones para tratar de equilibrar la parte económica con el problema de salud pública.
  
