@@ -68,11 +68,15 @@ Los estados están ordenados por el número de casos diarios confirmados esperad
 ## Distribución geográfica epidemiológica dado el Rt estimado
 
 <iframe is="x-frame-bypass" src='https://flo.uri.sh/visualisation/2194592/embed' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe>
+<br>
+Nota: El número de casos que se muestran corresponden al límite bajo y el estimado alto del modelo.
 
 ## México en el contexto global: ¿qué tan efectivo ha sido para disminuir el crecimiento exponencial?
 
 <iframe is="x-frame-bypass" src='https://htmlpreview.github.io/?https://raw.githubusercontent.com/marianarf/covid19_mexico_analysis/master/plot.html' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe>
-
+<br>
+Fuente: Nuevos casos de COVID-19, proporcionados por JHU CSSE
+<br>
 ¿Vamos ganando o  perdiendo la batalla contra COVID-19? ¿Cómo sabemos si las medidas para frenar la epidemia están funcionando? Esta gráfica interactiva usa escalas logarítmicas, de modo que el el crecimiento exponencial puro se ve como una línea recta. El uso de estas escalas también tiende a acentuar el crecimiento o disminución en el comportamiento de la pandemia para mostrar visualmente la evolución de la epidemia sobre el tiempo y poner en evidencia cuándo y dónde es que las medidas aplicadas parecen ayudar a "frenar la línea" (en este caso) de crecimiento exponencial.
 
 ## Monitoreo para estados con mayor crecimiento esperado
