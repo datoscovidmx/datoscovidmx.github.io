@@ -69,13 +69,13 @@ Fuente: Nuevos casos de COVID-19, proporcionados por JHU CSSE
 
 ## Monitoreo para estados con mayor número de casos
 
-### Casos confirmados, contagios estimados y pronóstico de 7 días
+### Casos confirmados, estimados por fecha de contagio y pronóstico de 7 días
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/mexico/regional-summary/high_cases_plot.png)
 
-<center>Casos confirmados contra casos estimados (banda clara = intervalo de credibilidad al 90%; banda obscura = intervalo de credibilidad al 50%). La confianza en los valores estimados se indica por transparencia: una transparencia alta corresponde a una confianza reducida.</center>
+<center>Las barras son los casos confirmados a la fecha, la banda gris son las estimaciones de casos por fecha de contagio, la banda naranja es el pronóstico de contagios. Las bandas claras son un intervalo de credibilidad al 90% y las oscuras son el intervalo de credibilidad al 50%.</center>
 <br>
-*Es de notar que la estimación, no llega al dia en el que actualizamos el reporte, dado que la estimación depende del retraso anteriormente citado, que es en promedio de alrededor de 10 días*.
+*Es de notar que la estimación, no llega al dia en el que actualizamos el reporte, dado que la estimación depende del retraso anteriormente citado, que es en promedio de alrededor de 10 días. Por la misma razón, el pronóstico de contagios incluye días en el presente*.
 
 ### Evolución de la tasa de reproducción efectiva (Rt)
 
@@ -88,7 +88,7 @@ Fuente: Nuevos casos de COVID-19, proporcionados por JHU CSSE
 
 - **Solo se incluyen estados con al menos 10 casos confirmados en un día para este análisis.**
 
-### Casos confirmados, contagios estimados y pronóstico de 7 días
+### Casos confirmados, estimados por fecha de contagio y pronóstico de 7 días
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/mexico/regional-summary/cases_plot.png)
 
