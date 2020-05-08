@@ -69,7 +69,7 @@ Fuente: Nuevos casos de COVID-19, proporcionados por JHU CSSE
 
 ## Monitoreo para estados con mayor número de casos
 
-### Casos confirmados, estimados y pronóstico de 7 días
+### Casos confirmados, contagios estimados y pronóstico de 7 días
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/mexico/regional-summary/high_cases_plot.png)
 
@@ -88,7 +88,7 @@ Fuente: Nuevos casos de COVID-19, proporcionados por JHU CSSE
 
 - **Solo se incluyen estados con al menos 10 casos confirmados en un día para este análisis.**
 
-### Casos confirmados contra casos estimados
+### Casos confirmados, contagios estimados y pronóstico de 7 días
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/mexico/regional-summary/cases_plot.png)
 
