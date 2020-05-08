@@ -1,21 +1,17 @@
-# Monitoreo epidemiológico de COVID-19 en México
-
 ![](https://pbs.twimg.com/profile_banners/1251773678636933120/1587470790/1500x500)
 
-# Resumen al 28 de abril de 2020
+# Resumen al 6 de mayo de 2020
 
-Para detalles sobre el equipo que trabajó esta implementación y cómo mantendremos actualizado el observatorio: [contexto sobre el observatorio de datos COVID Mx](https://github.com/datoscovidmx/datoscovidmx.github.io/blob/master/README.md)
+[Equipo de trabajo del Observatorio de Datos COVID MX](https://github.com/datoscovidmx/datoscovidmx.github.io/blob/master/README.md)
 
 # ¿Por qué corregir los casos confirmados?
 
-- Los casos confirmados son una muestra estadística que contiene una serie de retrasos importantes entre el número que vemos en el presente y el día que sucedió dicha infección, estos retrasos los comprenden mayormente dos fenómenos:
+- Los casos confirmados son una muestra estadística que contiene una serie de retrasos entre el número que vemos en el presente y el día que sucedió dicha infección, por ejemplo:
+
   1) El retraso en el tiempo existente entre la fecha de inicio de síntomas del paciente y la fecha de confirmación oficial del caso.
-  2) El tiempo que necesita el virus para incubarse en el cuerpo.
+  2) El tiempo que necesita el virus para incubarse en el cuerpo después del contagio (período de incubación)
 
-
-- Al pasar de las fechas de confirmación a las fechas de inicio de sintomas, es importante tener en cuenta que la cantidad total de casos confirmados tendrá dicho retraso contra la cantidad de casos que realmente han aparecido, ya que existe un retraso entre la aparición y la contabilización del caso en la confirmación.
-
-- Para tener en cuenta esto, se tiene que reescalar el número estimado de casos de casos corregidos hacia el presente. Dicho re escalamiento fue efectuado con una regresión negativa binomial, que permite, después de transformar las fechas de confirmación a fechas de inicio de sintomas y contar el número de casos por día, obtener una muestra de la cantidad de casos que posiblemente ocurrieron pero que no se confirmaron.
+- Por las razones anteriores, se aplica un [método de estimación](#metodología) de la fecha probable de infección o contagio, para poder estimar la cantidad de contagios que estan sucediendo en la actualidad.
 
 # ¿Por qué monitorear R en el tiempo? Explicación de Rt.
 
@@ -23,11 +19,7 @@ Para detalles sobre el equipo que trabajó esta implementación y cómo mantendr
   1. Si Rt está por encima de 1.0, el virus se propagará rápidamente.
   2. Cuando Rt está por debajo de 1.0, el virus se irá propagando cada vez menos.
 
-- En cualquier epidemia, <img src="https://render.githubusercontent.com/render/math?math=R(t)">  es la medida conocida como la tasa de reproducción efectivo. Es el número de personas que se infectan por persona infectada en el momento <img src="https://render.githubusercontent.com/render/math?math=t">. La versión más conocida de este número es la tasa de reproducción básica <img src="https://render.githubusercontent.com/render/math?math=R_0">  que es la tasa de reproducción al inicio de la pandemia. Sin embargo, esta medida pasa por alto los cambios de comportamiento y política pública y no nos ayuda a evaluar intervenciones como la cuarentena y el distanciamiento social.
-
-- Dicho de otra forma, el valor de <img src="https://render.githubusercontent.com/render/math?math=R(t)">  nos ayuda a:
-  1. Evaluar que tan efectivas han sido las medidas tomadas para controlar un brote.
-  2. decidir si debemos aumentar o reducir las restricciones para tratar de equilibrar la parte económica con el problema de salud pública.
+- En cualquier epidemia, <img src="https://render.githubusercontent.com/render/math?math=R(t)">  es la medida conocida como la tasa de reproducción efectivo. Es el número de personas que se infectan por persona infectada en el momento <img src="https://render.githubusercontent.com/render/math?math=t">. La versión más conocida de este número es la tasa de reproducción básica <img src="https://render.githubusercontent.com/render/math?math=R_0">  que es la tasa de reproducción al inicio de la pandemia. Sin embargo, necesitamos medir Rt de forma continua para poder evaluar el efecto de las intervenciones como la cuarentena y el distanciamiento social y decidir si las restricciones deben mantenerse o relajarse.
   
 - Las gráficas muestran una linea punteada por encima de <img src="https://render.githubusercontent.com/render/math?math=R(t)=1">  ya que es el valor objetivo para contener la epidemia. **Para que la epidemia se logre mitigar, las bandas de estimación deben estar en 1 o por debajo de 1, por un lapso de tiempo.**
 
@@ -42,7 +34,7 @@ Para detalles sobre el equipo que trabajó esta implementación y cómo mantendr
     + [Casos confirmados contra casos estimados](#casos-confirmados-contra-casos-estimados)
     + [Evolución de la tasa de reproducción efectiva (Rt)](#evolución-de-la-tasa-de-reproducción-efectiva-rt)
   * [Monitoreo para el resto de los estados](#monitoreo-para-el-resto-de-los-estados)
-    + [Casos confirmados contra casos estimados](#casos-confirmados-contra-casos-estimados-1)
+    + [Casos confirmados contra contagios estimados](#casos-confirmados-contra-contagios-estimados-1)
     + [Evolución de la tasa de reproducción efectiva (Rt)](#evolución-de-la-tasa-de-reproducción-efectiva-rt-para-el-resto-de-los-estados)
   * [Resumen final](#resumen-final)
   * [Metodología](#metodología)
@@ -79,18 +71,7 @@ Fuente: Nuevos casos de COVID-19, proporcionados por JHU CSSE
 <br>
 ¿Vamos ganando o  perdiendo la batalla contra COVID-19? ¿Cómo sabemos si las medidas para frenar la epidemia están funcionando? Esta gráfica interactiva usa escalas logarítmicas, de modo que el el crecimiento exponencial puro se ve como una línea recta. El uso de estas escalas también tiende a acentuar el crecimiento o disminución en el comportamiento de la pandemia para mostrar visualmente la evolución de la epidemia sobre el tiempo y poner en evidencia cuándo y dónde es que las medidas aplicadas parecen ayudar a "frenar la línea" (en este caso) de crecimiento exponencial.
 
-## Monitoreo para estados con mayor crecimiento esperado
-
-Dado nuestro análisis, en los siguientes estados se esperan más casos confirmados diarios:
-
-- Baja California
-- Zacatecas
-- Chihuahua
-- Jalisco
-- Ciudad de México
-- Sinaloa
-
-### Casos confirmados contra casos estimados
+### Casos confirmados contra contagios estimados
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/mexico/regional-summary/high_cases_plot.png)
 
@@ -119,44 +100,21 @@ Dado nuestro análisis, en los siguientes estados se esperan más casos confirma
 
 ## Resumen final
 
-| State               | New confirmed cases by infection date | Expected change in daily cases | Effective reproduction no. |
-|---------------------|---------------------------------------|--------------------------------|----------------------------|
-| AGUASCALIENTES      | 43 (0 -- 134)                         | Unsure                         | 1.9 (0.1 -- 4.1)           |
-| BAJA CALIFORNIA     | 76 (0 -- 209)                         | Unsure                         | 1 (0.3 -- 1.9)             |
-| BAJA CALIFORNIA SUR | 36 (0 -- 78)                          | Unsure                         | 2.3 (0.1 -- 4.3)           |
-| CAMPECHE            | 47 (0 -- 138)                         | Likely increasing              | 3.2 (0 -- 6.8)             |
-| CHIAPAS             | 22 (0 -- 42)                          | Likely increasing              | 1.7 (0.5 -- 2.7)           |
-| CHIHUAHUA           | 61 (0 -- 192)                         | Unsure                         | 1.7 (0.1 -- 3.6)           |
-| CIUDAD DE MEXICO    | 90 (13 -- 175)                        | Decreasing                     | 0.6 (0.4 -- 0.9)           |
-| COAHUILA            | 43 (0 -- 125)                         | Unsure                         | 1.8 (0.1 -- 3.8)           |
-| DURANGO             | 35 (0 -- 72)                          | Likely increasing              | 3.1 (0.1 -- 6)             |
-| GUANAJUATO          | 44 (0 -- 128)                         | Unsure                         | 1.9 (0.1 -- 4)             |
-| GUERRERO            | 38 (0 -- 76)                          | Likely increasing              | 1.8 (0.4 -- 3.1)           |
-| HIDALGO             | 32 (0 -- 65)                          | Likely increasing              | 1.6 (0.5 -- 2.7)           |
-| JALISCO             | 56 (0 -- 183)                         | Unsure                         | 2 (0.1 -- 4.8)             |
-| MEXICO              | 55 (5 -- 105)                         | Decreasing                     | 0.6 (0.3 -- 0.9)           |
-| MICHOACAN           | 33 (2 -- 66)                          | Likely increasing              | 1.5 (0.5 -- 2.4)           |
-| MORELOS             | 37 (2 -- 68)                          | Likely increasing              | 1.5 (0.6 -- 2.3)           |
-| NUEVO LEON          | 33 (0 -- 70)                          | Unsure                         | 1.9 (0.2 -- 3.5)           |
-| PUEBLA              | 37 (2 -- 70)                          | Unsure                         | 1.2 (0.5 -- 1.9)           |
-| QUINTANA ROO        | 29 (0 -- 57)                          | Unsure                         | 1 (0.3 -- 1.5)             |
-| SAN LUIS POTOSI     | 27 (0 -- 52)                          | Likely increasing              | 3.3 (0.5 -- 6.2)           |
-| SINALOA             | 52 (0 -- 151)                         | Unsure                         | 1 (0.1 -- 1.7)             |
-| SONORA              | 40 (0 -- 87)                          | Likely increasing              | 2.2 (0.3 -- 4.3)           |
-| TABASCO             | 48 (4 -- 87)                          | Unsure                         | 0.9 (0.4 -- 1.3)           |
-| TAMAULIPAS          | 41 (3 -- 79)                          | Likely increasing              | 1.5 (0.5 -- 2.4)           |
-| TLAXCALA            | 32 (0 -- 60)                          | Likely increasing              | 1.9 (0.5 -- 3.2)           |
-| VERACRUZ            | 50 (0 -- 93)                          | Unsure                         | 1.2 (0.5 -- 1.9)           |
-| YUCATAN             | 42 (3 -- 77)                          | Likely increasing              | 1.5 (0.6 -- 2.4)           |
-| ZACATECAS           | 68 (0 -- 201)                         | Likely increasing              | 4.3 (0 -- 9.8)             |
+
 
 ## Metodología
 
 Hicimos una implementación basada en el trabajo experto del [centro de modelado matemático para enfermedades infecciosas](https://cmmid.github.io/), con algunas modificaciones dado el contexto nacional:
 
+Al pasar de las fechas de confirmación a las fechas de inicio de sintomas, es importante tener en cuenta que la cantidad total de casos confirmados tendrá dicho retraso contra la cantidad de casos que realmente han aparecido, ya que existe un retraso entre la aparición y la contabilización del caso en la confirmación.
+
+Para la estimación de los casos por fecha de contagio se tiene que reescalar el número estimado de casos de casos confirmados hacia el presente. Dicho re escalamiento fue efectuado con una regresión negativa binomial, que permite, después de transformar las fechas de confirmación a fechas de inicio de sintomas y contar el número de casos por día, obtener una muestra de la cantidad de casos que posiblemente ocurrieron pero que no se confirmaron.
+
+
 ### Datos
 
-- Los datos utilizados provienen del reporte técnico diario federal de la Secretaría de Salud (InDRE) de México.
+- A partir del 6 de Mayo, los datos utilizados provienen del portal de SINAVE del Gobierno Federal [https://covid19.sinave.gob.mx/](https://covid19.sinave.gob.mx/)
+
 - Las gráficas por estado y los datos para generarlas se pueden obtener en: [https://github.com/datoscovidmx/covid-nowcasts-mexico](https://github.com/datoscovidmx/covid-nowcasts-mexico).
 
 ### Supuestos
