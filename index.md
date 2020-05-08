@@ -30,12 +30,8 @@
   * [Resumen Nacional](#resumen-nacional)
   * [Distribución geográfica epidemiológica dado el Rt estimado](#distribución-geográfica-epidemiológica-dado-el-rt-estimado)
   * [México en el contexto mundial: ¿Estamos desacelerando?](#méxico-en-el-contexto-mundial-¿estamos-desacelerando?)
-  * [Monitoreo para estados con mayor crecimiento esperado](#monitoreo-para-estados-con-mayor-crecimiento-esperado)
-    + [Casos confirmados contra casos estimados](#casos-confirmados-contra-casos-estimados)
-    + [Evolución de la tasa de reproducción efectiva (Rt)](#evolución-de-la-tasa-de-reproducción-efectiva-rt)
+  * [Monitoreo para estados con mayor número de casos](#monitoreo-para-estados-con-mayor-numero-de-casos)
   * [Monitoreo para el resto de los estados](#monitoreo-para-el-resto-de-los-estados)
-    + [Casos confirmados contra contagios estimados](#casos-confirmados-contra-contagios-estimados-1)
-    + [Evolución de la tasa de reproducción efectiva (Rt)](#evolución-de-la-tasa-de-reproducción-efectiva-rt-para-el-resto-de-los-estados)
   * [Resumen final](#resumen-final)
   * [Metodología](#metodología)
     + [Datos](#datos)
@@ -71,7 +67,9 @@ Fuente: Nuevos casos de COVID-19, proporcionados por JHU CSSE
 <br>
 ¿Vamos ganando o  perdiendo la batalla contra COVID-19? ¿Cómo sabemos si las medidas para frenar la epidemia están funcionando? Esta gráfica interactiva usa escalas logarítmicas, de modo que el el crecimiento exponencial puro se ve como una línea recta. El uso de estas escalas también tiende a acentuar el crecimiento o disminución en el comportamiento de la pandemia para mostrar visualmente la evolución de la epidemia sobre el tiempo y poner en evidencia cuándo y dónde es que las medidas aplicadas parecen ayudar a "frenar la línea" (en este caso) de crecimiento exponencial.
 
-### Casos confirmados contra contagios estimados
+## Monitoreo para estados con mayor número de casos
+
+### Casos confirmados, estimados y pronóstico de 7 días
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/mexico/regional-summary/high_cases_plot.png)
 
