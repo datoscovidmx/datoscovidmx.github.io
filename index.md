@@ -57,7 +57,7 @@ Los estados están ordenados por el número de casos diarios confirmados esperad
 
 <iframe is="x-frame-bypass" src='https://flo.uri.sh/visualisation/2308984/embed' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe>
 <br>
-<center>Notas: El número de casos que se muestran corresponden al estimado bajo y el alto del modelo. El R(t) es el valor promedio de los estimados. Para más información, consultar la tabla</center>
+<center>*El número de casos que se muestran en el mapa corresponden a los estimados bajos y el altos del modelo, respectivamente. R(t) representa el valor promedio de los estimados. Para más información, consultar la [tabla de resultados](#resumen-final)</center>.
 
 ## México en el contexto global: ¿qué tan efectivo ha sido para disminuir el crecimiento exponencial?
 
@@ -140,7 +140,6 @@ Hicimos una implementación basada en el trabajo experto del [centro de modelado
 Al pasar de las fechas de confirmación a las fechas de inicio de sintomas, es importante tener en cuenta que la cantidad total de casos confirmados tendrá dicho retraso contra la cantidad de casos que realmente han aparecido, ya que existe un retraso entre la aparición y la contabilización del caso en la confirmación.
 
 Para la estimación de los casos por fecha de contagio se tiene que reescalar el número estimado de casos de casos confirmados hacia el presente. Dicho re escalamiento fue efectuado con una regresión negativa binomial, que permite, después de transformar las fechas de confirmación a fechas de inicio de sintomas y contar el número de casos por día, obtener una muestra de la cantidad de casos que posiblemente ocurrieron pero que no se confirmaron.
-
 
 ### Datos
 
