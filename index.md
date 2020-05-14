@@ -1,6 +1,6 @@
 ![](https://pbs.twimg.com/profile_banners/1251773678636933120/1587470790/1500x500)
 
-# Resumen al 6 de mayo de 2020
+# Resumen al 13 de mayo de 2020
 
 [Equipo de trabajo del Observatorio de Datos COVID MX](https://github.com/datoscovidmx/datoscovidmx.github.io/blob/master/README.md)
 
