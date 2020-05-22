@@ -57,7 +57,7 @@ Los estados están ordenados por el número de casos diarios confirmados esperad
 
 <iframe is="x-frame-bypass" src='https://flo.uri.sh/visualisation/2508263/embed' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe>
 <br>
-<center>*El número de casos que se muestran en el mapa corresponden a los estimados bajos y el altos del modelo, respectivamente. R(t) representa el valor promedio de los estimados. Para más información, consultar la [tabla de resultados](#resumen-final)</center>.
+<center>*El número de casos que se muestran en el mapa corresponden a los estimados bajos y el altos del modelo, respectivamente. R(t) representa el valor promedio de los estimados. Para más información, consultar la tabla de resultados.</center>.
 
 ## México en el contexto global: ¿qué tan efectivo ha sido para disminuir el crecimiento exponencial?
 
