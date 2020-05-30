@@ -100,33 +100,33 @@ Fuente: Nuevos casos de COVID-19, proporcionados por JHU CSSE
 
 | Estado              | Nuevos casos confirmados por fecha de síntomas | Cambio esperado en nuevos casos | Número de reproducción efectiva | Tiempo de duplicación / reducción a la mitad (días) |
 |---------------------|------------------------------------------------|---------------------------------|---------------------------------|-----------------------------------------------------|
-| AGUASCALIENTES      | 30 (17 -- 44)                                  | Unsure                          | 1.1 (0.8 -- 1.5)                | 42 (7.5 -- -11)                                     |
-| BAJA CALIFORNIA     | 147 (112 -- 174)                               | Unsure                          | 1.1 (0.9 -- 1.2)                | 55 (16 -- -38)                                      |
-| BAJA CALIFORNIA SUR | 12 (3 -- 19)                                   | Unsure                          | 1.1 (0.5 -- 1.6)                | 37 (5.4 -- -7.5)                                    |
-| CAMPECHE            | 24 (12 -- 35)                                  | Likely increasing               | 1.2 (0.8 -- 1.6)                | 15 (5.5 -- -21)                                     |
-| CHIAPAS             | 99 (74 -- 122)                                 | Increasing                      | 1.2 (1 -- 1.4)                  | 16 (8.4 -- 130)                                     |
-| CHIHUAHUA           | 57 (37 -- 74)                                  | Likely increasing               | 1.2 (0.9 -- 1.5)                | 17 (7.4 -- -51)                                     |
-| CIUDAD DE MEXICO    | 884 (817 -- 955)                               | Likely increasing               | 1.1 (1 -- 1.1)                  | 52 (26 -- 1600)                                     |
-| COAHUILA            | 42 (26 -- 57)                                  | Increasing                      | 1.3 (1 -- 1.7)                  | 11 (5.5 -- -220)                                    |
+| AGUASCALIENTES      | 29 (16 -- 41)                                  | Unsure                          | 1.1 (0.8 -- 1.5)                | 48 (7.9 -- -11)                                     |
+| BAJA CALIFORNIA     | 146 (118 -- 178)                               | Unsure                          | 1.1 (0.9 -- 1.2)                | 55 (16 -- -38)                                      |
+| BAJA CALIFORNIA SUR | 12 (3 -- 20)                                   | Unsure                          | 1.1 (0.6 -- 1.6)                | 38 (5.2 -- -7.3)                                    |
+| CAMPECHE            | 24 (11 -- 34)                                  | Likely increasing               | 1.2 (0.8 -- 1.6)                | 15 (5.5 -- -22)                                     |
+| CHIAPAS             | 98 (72 -- 122)                                 | Increasing                      | 1.2 (1 -- 1.5)                  | 16 (8.4 -- 450)                                     |
+| CHIHUAHUA           | 57 (39 -- 75)                                  | Likely increasing               | 1.2 (0.9 -- 1.5)                | 18 (7.6 -- -52)                                     |
+| CIUDAD DE MEXICO    | 881 (816 -- 955)                               | Likely increasing               | 1.1 (1 -- 1.1)                  | 52 (27 -- 990)                                      |
+| COAHUILA            | 42 (27 -- 58)                                  | Increasing                      | 1.3 (1 -- 1.7)                  | 12 (5.6 -- -120)                                    |
 | COLIMA              | 9 (2 -- 15)                                    | Unsure                          | 1.4 (0.6 -- 2.1)                | 14 (3.4 -- -6.9)                                    |
-| DURANGO             | 18 (6 -- 27)                                   | Likely increasing               | 1.4 (0.8 -- 2)                  | 9.9 (4 -- -20)                                      |
-| GUANAJUATO          | 65 (45 -- 86)                                  | Likely increasing               | 1.2 (0.9 -- 1.4)                | 17 (7.9 -- -82)                                     |
-| GUERRERO            | 90 (68 -- 112)                                 | Increasing                      | 1.3 (1.1 -- 1.6)                | 10 (6.4 -- 27)                                      |
-| HIDALGO             | 82 (58 -- 101)                                 | Increasing                      | 1.2 (1 -- 1.5)                  | 18 (8.4 -- -110)                                    |
-| JALISCO             | 63 (45 -- 83)                                  | Likely increasing               | 1.2 (0.9 -- 1.4)                | 22 (8.8 -- -44)                                     |
-| MEXICO              | 724 (655 -- 793)                               | Increasing                      | 1.4 (1.2 -- 1.5)                | 10 (8.4 -- 14)                                      |
-| MICHOACAN           | 87 (62 -- 107)                                 | Likely increasing               | 1.2 (1 -- 1.4)                  | 22 (9.6 -- -75)                                     |
-| MORELOS             | 30 (17 -- 44)                                  | Unsure                          | 1.1 (0.8 -- 1.5)                | 19 (6.4 -- -19)                                     |
-| NACIONAL            | 1577 (1478 -- 1673)                            | Increasing                      | 1.2 (1.1 -- 1.2)                | 22 (17 -- 33)                                       |
-| NAYARIT             | 13 (4 -- 21)                                   | Likely increasing               | 1.4 (0.7 -- 2)                  | 10 (3.8 -- -15)                                     |
-| NUEVO LEON          | 33 (20 -- 47)                                  | Likely increasing               | 1.3 (0.9 -- 1.7)                | 11 (5.2 -- -170)                                    |
-| OAXACA              | 12 (4 -- 20)                                   | Unsure                          | 1.3 (0.7 -- 1.9)                | 13 (4.1 -- -11)                                     |
-| PUEBLA              | 45 (27 -- 61)                                  | Unsure                          | 1.1 (0.8 -- 1.4)                | 31 (8.9 -- -19)                                     |
-| QUERETARO           | 9 (2 -- 15)                                    | Unsure                          | 1.3 (0.6 -- 2)                  | 12 (3.5 -- -8.4)                                    |
-| QUINTANA ROO        | 31 (17 -- 43)                                  | Likely decreasing               | 0.9 (0.6 -- 1.1)                | -18 (32 -- -7)                                      |
-| SAN LUIS POTOSI     | 16 (6 -- 25)                                   | Likely increasing               | 1.5 (0.8 -- 2)                  | 9.5 (3.9 -- -22)                                    |
-| SINALOA             | 52 (33 -- 69)                                  | Unsure                          | 1.1 (0.8 -- 1.3)                | 36 (9.7 -- -21)                                     |
-| SONORA              | 27 (14 -- 39)                                  | Likely increasing               | 1.4 (1 -- 1.9)                  | 9.6 (4.5 -- -59)                                    |
+| DURANGO             | 18 (7 -- 27)                                   | Likely increasing               | 1.4 (0.8 -- 2)                  | 10 (4 -- -18)                                       |
+| GUANAJUATO          | 65 (44 -- 84)                                  | Likely increasing               | 1.2 (0.9 -- 1.4)                | 17 (7.8 -- -93)                                     |
+| GUERRERO            | 91 (69 -- 116)                                 | Increasing                      | 1.4 (1.1 -- 1.6)                | 10 (6.2 -- 26)                                      |
+| HIDALGO             | 82 (60 -- 104)                                 | Increasing                      | 1.2 (1 -- 1.5)                  | 18 (8.2 -- -130)                                    |
+| JALISCO             | 63 (42 -- 81)                                  | Likely increasing               | 1.2 (0.9 -- 1.4)                | 23 (8.8 -- -39)                                     |
+| MEXICO              | 722 (649 -- 785)                               | Increasing                      | 1.4 (1.2 -- 1.5)                | 10 (8.4 -- 14)                                      |
+| MICHOACAN           | 86 (60 -- 107)                                 | Likely increasing               | 1.2 (0.9 -- 1.4)                | 24 (9.7 -- -53)                                     |
+| MORELOS             | 31 (18 -- 44)                                  | Unsure                          | 1.1 (0.8 -- 1.5)                | 18 (6.2 -- -21)                                     |
+| NACIONAL            | 3532 (3353 -- 3665)                            | Increasing                      | 1.2 (1.1 -- 1.2)                | 21 (18 -- 27)                                       |
+| NAYARIT             | 22 (10 -- 32)                                  | Likely increasing               | 1.3 (0.8 -- 1.7)                | 13 (5 -- -21)                                       |
+| NUEVO LEON          | 50 (29 -- 64)                                  | Unsure                          | 1.1 (0.8 -- 1.4)                | 72 (11 -- -15)                                      |
+| OAXACA              | 54 (35 -- 71)                                  | Likely decreasing               | 0.9 (0.7 -- 1.1)                | -17 (130 -- -7.8)                                   |
+| PUEBLA              | 136 (107 -- 162)                               | Increasing                      | 1.3 (1.1 -- 1.5)                | 14 (8.3 -- 44)                                      |
+| QUERETARO           | 36 (19 -- 48)                                  | Unsure                          | 1 (0.7 -- 1.2)                  | -60 (14 -- -9.6)                                    |
+| QUINTANA ROO        | 45 (29 -- 61)                                  | Unsure                          | 1.1 (0.8 -- 1.3)                | 39 (9.7 -- -19)                                     |
+| SAN LUIS POTOSI     | 43 (25 -- 59)                                  | Likely increasing               | 1.2 (0.9 -- 1.5)                | 16 (6.8 -- -40)                                     |
+| SINALOA             | 127 (99 -- 152)                                | Increasing                      | 1.2 (1 -- 1.4)                  | 16 (8.8 -- 67)                                      |
+| SONORA              | 92 (70 -- 117)                                 | Likely increasing               | 1.2 (1 -- 1.4)                  | 21 (9.4 -- -98)                                     |
 | TABASCO             | 59 (38 -- 77)                                  | Unsure                          | 1 (0.8 -- 1.2)                  | 600 (14 -- -15)                                     |
 | TAMAULIPAS          | 17 (6 -- 26)                                   | Unsure                          | 1 (0.6 -- 1.4)                  | -450 (7.7 -- -7.2)                                  |
 | TLAXCALA            | 15 (7 -- 25)                                   | Unsure                          | 1.1 (0.6 -- 1.5)                | 220 (7.1 -- -7.4)                                   |
