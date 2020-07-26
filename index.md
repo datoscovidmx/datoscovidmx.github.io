@@ -1,15 +1,15 @@
 ![](https://pbs.twimg.com/profile_banners/1251773678636933120/1587470790/1500x500)
 
-# Resumen al 26 de junio de 2020
+# Resumen al 23 de julio de 2020
 
 [Equipo de trabajo del Observatorio de Datos COVID MX](https://github.com/datoscovidmx/datoscovidmx.github.io/blob/master/README.md)
 
 # ¿Por qué corregir los casos confirmados?
 
-- Los casos confirmados son una muestra estadística que contiene una serie de retrasos entre el número que vemos en el presente y el día que sucedió dicha infección, por ejemplo:
-
-  1) El retraso en el tiempo existente entre la fecha de inicio de síntomas del paciente y la fecha de confirmación oficial del caso.
-  2) El tiempo que necesita el virus para incubarse en el cuerpo después del contagio (período de incubación)
+- Existe una serie de retrasos entre la fecha de confirmación y el día que sucedió dicha infección, por ejemplo:
+  
+  1) El tiempo entre el contagio y la posible manifestación de síntomas (período de incubación)
+  2) El tiempo entre la fecha de inicio de síntomas y la fecha de confirmación oficial del caso.
 
 - Por las razones anteriores, se aplica un [método de estimación](#metodología) de la fecha probable de infección o contagio, para poder estimar la cantidad de contagios que estan sucediendo en la actualidad.
 
@@ -28,8 +28,6 @@
 ## Tabla de contenido
 
   * [Resumen Nacional](#resumen-nacional)
-  * [Distribución geográfica epidemiológica dado el Rt estimado](#distribución-geográfica-epidemiológica-dado-el-rt-estimado)
-  * [México en el contexto mundial: ¿Estamos desacelerando?](#méxico-en-el-contexto-mundial-¿estamos-desacelerando?)
   * [Monitoreo para estados con mayor número de casos](#monitoreo-para-estados-con-mayor-numero-de-casos)
   * [Monitoreo para el resto de los estados](#monitoreo-para-el-resto-de-los-estados)
   * [Resumen final](#resumen-final)
@@ -52,20 +50,6 @@ Este resúmen muestra la tasa efectiva de reproducción mas actualizada para cad
 Los estados están ordenados por el número de casos diarios confirmados esperados y codificados por color según el cambio esperado en los casos diarios confirmados.
 
 **La línea punteada indica el valor objetivo de 1 para la tasa efectiva de reproducción que se requiere para el control**
-
-## Distribución geográfica epidemiológica dado el Rt estimado
-
-<iframe is="x-frame-bypass" src='https://flo.uri.sh/visualisation/2717012/embed' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe>
-<br>
-<center>*El número de casos que se muestran en el mapa corresponden a los estimados bajos y el altos del modelo, respectivamente. R(t) representa el valor promedio de los estimados. Para más información, consultar la tabla de resultados.</center>.
-
-## México en el contexto global: ¿qué tan efectivo ha sido para disminuir el crecimiento exponencial?
-
-<iframe is="x-frame-bypass" src='https://htmlpreview.github.io/?https://raw.githubusercontent.com/marianarf/covid19_mexico_analysis/master/plot.html' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe>
-<br>
-Fuente: Nuevos casos de COVID-19, proporcionados por JHU CSSE
-<br>
-¿Vamos ganando o  perdiendo la batalla contra COVID-19? ¿Cómo sabemos si las medidas para frenar la epidemia están funcionando? Esta gráfica interactiva usa escalas logarítmicas, de modo que el el crecimiento exponencial puro se ve como una línea recta. El uso de estas escalas también tiende a acentuar el crecimiento o disminución en el comportamiento de la pandemia para mostrar visualmente la evolución de la epidemia sobre el tiempo y poner en evidencia cuándo y dónde es que las medidas aplicadas parecen ayudar a "frenar la línea" (en este caso) de crecimiento exponencial.
 
 ## Monitoreo para estados con mayor número de casos
 
