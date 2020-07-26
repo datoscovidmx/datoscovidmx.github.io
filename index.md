@@ -82,23 +82,40 @@ Los estados están ordenados por el número de casos diarios confirmados esperad
 
 ## Resumen final
 
-| Estado              | Nuevos casos confirmados por fecha de síntomas | Cambio esperado en nuevos casos | Número de reproducción efectiva |
-|---------------------|------------------------------------------------|---------------------------------|---------------------------------|
-| BAJA CALIFORNIA     | 43 (11 -- 74)   | Probablemente aumentando |1.5 (0.9 -- 2.2) |
-| BAJA CALIFORNIA SUR | 29 (0 -- 59)    | Probablemente aumentando |1.8 (0.4 -- 2.8) |
-| CIUDAD DE MEXICO    | 123 (69 -- 177) | Probablemente aumentando |1.2 (0.9 -- 1.5) |
-| COAHUILA            | 31 (1 -- 59)    | Probablemente aumentando |1.7 (0.6 -- 2.6) |
-| GUANAJUATO          | 30 (1 -- 57)    | Probablemente aumentando |1.8 (0.6 -- 2.9) |
-| JALISCO             | 29 (0 -- 53)    | Probablemente aumentando |1.6 (0.6 -- 2.5) |
-| MEXICO              | 52 (14 -- 80)   | Probablemente aumentando |1.2 (0.7 -- 1.7) |
-| MICHOACAN           | 27 (0 -- 52)    | Probablemente aumentando |1.7 (0.5 -- 2.8) |
-| NUEVO LEON          | 31 (1 -- 56)    | Probablemente aumentando |1.5 (0.6 -- 2.4) |
-| PUEBLA              | 35 (7 -- 65)    | Incierto                 |1.3 (0.6 -- 2)   |
-| QUINTANA ROO        | 32 (6 -- 58)    | Probablemente aumentando |1.5 (0.7 -- 2.4) |
-| SINALOA             | 39 (8 -- 67)    | Probablemente aumentando |1.5 (0.8 -- 2.2) |
-| SONORA              | 28 (0 -- 54)    | Probablemente aumentando |1.9 (0.3 -- 3.1) |
-| TABASCO             | 29 (1 -- 54)    | Probablemente aumentando |1.6 (0.6 -- 2.6) |
-| YUCATAN             | 31 (2 -- 59)    | Probablemente aumentando |1.6 (0.6 -- 2.5) |
+| Estado              | Nuevos casos confirmados por fecha de síntomas   | Cambio esperado en nuevos casos   | Número de reproducción efectiva   | Tiempo de duplicación / reducción a la mitad (días)   |
+|:--------------------|:-------------------------------------------------|:----------------------------------|:----------------------------------|:------------------------------------------------------|
+| AGUASCALIENTES      | 66 (47 -- 83)                                    | Incierto                          | 1 (0.9 -- 1.2)                    | 100 (12 -- -16)                                       |
+| BAJA CALIFORNIA     | 165 (139 -- 187)                                 | Probablemente aumentando          | 1.1 (1 -- 1.2)                    | 29 (13 -- -88)                                        |
+| BAJA CALIFORNIA SUR | 105 (85 -- 121)                                  | Incierto                          | 1.1 (0.9 -- 1.2)                  | 67 (14 -- -24)                                        |
+| CAMPECHE            | 85 (65 -- 100)                                   | Incierto                          | 1 (0.9 -- 1.2)                    | 320 (15 -- -17)                                       |
+| CHIAPAS             | 33 (21 -- 43)                                    | Incierto                          | 0.9 (0.7 -- 1.2)                  | -79 (11 -- -9)                                        |
+| CHIHUAHUA           | 69 (53 -- 81)                                    | Incierto                          | 1 (0.8 -- 1.1)                    | -100 (18 -- -14)                                      |
+| CIUDAD DE MÉXICO    | 893 (804 -- 973)                                 | Aumentando                        | 1.1 (1 -- 1.2)                    | 25 (16 -- 57)                                         |
+| COAHUILA            | 331 (284 -- 371)                                 | Aumentando                        | 1.2 (1.1 -- 1.3)                  | 15 (9.8 -- 28)                                        |
+| COLIMA              | 40 (27 -- 51)                                    | Incierto                          | 1 (0.8 -- 1.2)                    | 140 (10 -- -12)                                       |
+| DURANGO             | 74 (57 -- 88)                                    | Incierto                          | 1 (0.9 -- 1.2)                    | 70 (13 -- -20)                                        |
+| GUANAJUATO          | 395 (351 -- 440)                                 | Incierto                          | 1 (0.9 -- 1.1)                    | -980 (33 -- -32)                                      |
+| GUERRERO            | 168 (144 -- 191)                                 | Probablemente disminuyendo        | 0.9 (0.8 -- 1)                    | -33 (83 -- -14)                                       |
+| HIDALGO             | 110 (88 -- 125)                                  | Probablemente aumentando          | 1.1 (1 -- 1.3)                    | 20 (9.4 -- -180)                                      |
+| JALISCO             | 230 (196 -- 265)                                 | Probablemente aumentando          | 1.1 (1 -- 1.2)                    | 30 (14 -- -150)                                       |
+| MÉXICO              | 586 (524 -- 650)                                 | Incierto                          | 1 (0.9 -- 1.1)                    | 71 (25 -- -86)                                        |
+| MICHOACÁN           | 140 (119 -- 159)                                 | Probablemente aumentando          | 1.1 (1 -- 1.2)                    | 29 (12 -- -72)                                        |
+| MORELOS             | 40 (29 -- 52)                                    | Incierto                          | 1.1 (0.9 -- 1.3)                  | 27 (8 -- -19)                                         |
+| NAYARIT             | 61 (44 -- 74)                                    | Incierto                          | 1 (0.9 -- 1.2)                    | 78 (12 -- -17)                                        |
+| NUEVO LEÓN          | 389 (346 -- 443)                                 | Aumentando                        | 1.1 (1 -- 1.2)                    | 30 (16 -- 410)                                        |
+| OAXACA              | 162 (139 -- 183)                                 | Incierto                          | 1 (0.9 -- 1.2)                    | 54 (16 -- -38)                                        |
+| PUEBLA              | 383 (327 -- 434)                                 | Aumentando                        | 1.2 (1.1 -- 1.3)                  | 17 (10 -- 44)                                         |
+| QUERETARO           | 63 (47 -- 76)                                    | Incierto                          | 1.1 (0.9 -- 1.2)                  | 41 (11 -- -22)                                        |
+| QUINTANA ROO        | 126 (102 -- 150)                                 | Incierto                          | 1 (0.8 -- 1.1)                    | -67 (27 -- -15)                                       |
+| SAN LUIS POTOSÍ     | 217 (193 -- 243)                                 | Aumentando                        | 1.1 (1 -- 1.2)                    | 23 (12 -- 250)                                        |
+| SINALOA             | 158 (131 -- 180)                                 | Incierto                          | 1 (0.9 -- 1.1)                    | -110 (29 -- -19)                                      |
+| SONORA              | 359 (323 -- 397)                                 | Incierto                          | 1 (0.9 -- 1.1)                    | 62 (21 -- -66)                                        |
+| TABASCO             | 375 (333 -- 420)                                 | Incierto                          | 1 (0.9 -- 1.1)                    | 160 (27 -- -41)                                       |
+| TAMAULIPAS          | 351 (311 -- 389)                                 | Aumentando                        | 1.1 (1 -- 1.2)                    | 19 (12 -- 50)                                         |
+| TLAXCALA            | 68 (53 -- 83)                                    | Incierto                          | 1 (0.9 -- 1.2)                    | 38 (11 -- -24)                                        |
+| VERACRUZ            | 395 (354 -- 433)                                 | Probablemente aumentando          | 1.1 (1 -- 1.1)                    | 34 (17 -- -640)                                       |
+| YUCATÁN             | 166 (145 -- 189)                                 | Incierto                          | 1 (0.9 -- 1.2)                    | 94 (19 -- -29)                                        |
+| ZACATECAS           | 69 (53 -- 82)                                    | Probablemente aumentando          | 1.1 (0.9 -- 1.3)                  | 24 (9 -- -37)                                         |
 
 ## Metodología
 
