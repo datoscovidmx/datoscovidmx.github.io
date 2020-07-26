@@ -1,6 +1,10 @@
 # Observatorio de datos de COVID-19 en México.
 [@DatosCovid](https://twitter.com/datoscovid)
 
+# Directorio de colaboradores en Github
+
+[Colaboradores de Github](https://github.com/orgs/datoscovidmx/people)
+
 ## Nacimiento del Observatorio
 
 Esta iniciativa nace de una colaboración de las principales comunidades de ciencia de datos y desarrollo tecnológico en el país:
