@@ -144,6 +144,111 @@ Si un estado amplía su capacidad de prueba y comienza a informar una mayor prop
 
 **Lo que es importante para que estos resultados sean imparciales, es que relacionado a las pruebas, la metodología para hacer pruebas de COVID-19 sea consistente. Esto significa que si bien un cambio en el esfuerzo por hacer pruebas, inicialmente introducirá un sesgo, esto se reducirá con el tiempo siempre que dicho esfuerzo permanezca constante a partir de ese momento.**
 
+### Mapa de casos
+
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+
+<!-- Font -->
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+<style>
+.tooltip {
+  position: absolute;
+  padding: 7px;
+  font-size: 0.9em;
+  font-family: 'Open Sans', sans-serif;
+  pointer-events: none;
+  background: #fff;
+
+  -moz-box-shadow:    3px 3px 10px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.25);
+  box-shadow:         3px 3px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.tooltip p {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<!-- Create an element where the map will take place -->
+<svg id="map" width="600" height="400"></svg>
+
+<script>
+// The svg
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+// Map and projection
+var projection = d3.geoMercator()
+    .center([-100, 22])
+    .translate([ width/1.7, height/1.7])
+    .scale([ width/.5 ]);
+
+// Data and color scale
+var data = d3.map();
+var colorScale = d3.scaleOrdinal().range(["#98FB98", "#CDFF82", "#FFFF9E", "#F05C3C", "#DF2B04"]).domain(["Disminuyendo", "Probablemente disminuyendo", "Incierto", "Probablemente aumentando", "Aumentando"])
+
+tooltip = d3.select("body").append("div")
+  .attr("class", "tooltip")
+  .style("opacity", 0);
+
+// Load external data and boot
+d3.queue()
+  .defer(d3.json, "https://datoscovidmx.s3-us-west-2.amazonaws.com/casos_mexico.geojson")
+  .await(ready);
+
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+function ready(error, cases) {
+
+  // Draw the map
+  svg.append("g")
+     .selectAll("path")
+     .data(cases.features)
+     .enter()
+     .append("path")
+     // draw each country
+     .attr("d", d3.geoPath()
+                  .projection(projection)
+     )
+     // set the color of each country
+     .attr("fill", function (d) {
+       console.log(d.properties)
+       return colorScale(d.properties.cambio);
+     })
+     .style("stroke", "transparent")
+     .attr("class", function(d){ return "State" } )
+     .style("opacity", .5)
+     .on("mouseover", function(d) {
+      tooltip.transition()
+      .duration(250)
+      .style("opacity", 1);
+      tooltip.html(
+      "<p><strong>" + d.properties.estado + ": " + numberWithCommas(d.properties.cases) + " casos" + "</strong></p>")
+      .style("left", (d3.event.pageX + 15) + "px")
+      .style("top", (d3.event.pageY - 28) + "px");
+    })
+    .on("mouseout", function(d) {
+      tooltip.transition()
+      .duration(250)
+      .style("opacity", 0);
+    });
+    }
+</script>
+
 ### Detalles 
 
 Los detalles sobre la metodología se pueden encontrar en el proyecto original [https://epiforecasts.io/covid/methods.html](https://epiforecasts.io/covid/methods.html).
