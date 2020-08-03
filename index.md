@@ -173,6 +173,12 @@ Si un estado amplía su capacidad de prueba y comienza a informar una mayor prop
   padding: 0;
 }
 
+#legend text {
+  font-size: 0.9em;
+  color: #333;
+  font-weight: 400;
+}
+
 #map {
   display: block;
   margin-left: auto;
@@ -212,6 +218,9 @@ function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
+var legendText = ["10%"];
+var legendColors = ["#fff7bc"];
+
 function ready(error, cases) {
 
   // Draw the map
@@ -231,7 +240,7 @@ function ready(error, cases) {
      })
      .style("stroke", "transparent")
      .attr("class", function(d){ return "State" } )
-     .style("opacity", .5)
+     .style("opacity", .6)
      .on("mouseover", function(d) {
       tooltip.transition()
       .duration(250)
@@ -246,6 +255,21 @@ function ready(error, cases) {
       .duration(250)
       .style("opacity", 0);
     });
+
+  var legend = svg.append("g")
+    .attr("id", "legend");
+
+  // Handmade legend
+  legend.append("circle").attr("cx", 10).attr("cy", 200).attr("r", 6).style("fill", "#98FB98").style("opacity", .6)
+  legend.append("circle").attr("cx", 10).attr("cy", 230).attr("r", 6).style("fill", "#CDFF82").style("opacity", .6)
+  legend.append("circle").attr("cx", 10).attr("cy", 260).attr("r", 6).style("fill", "#FFFF9E").style("opacity", .6)
+  legend.append("circle").attr("cx", 10).attr("cy", 290).attr("r", 6).style("fill", "#F05C3C").style("opacity", .6)
+  legend.append("circle").attr("cx", 10).attr("cy", 320).attr("r", 6).style("fill", "#DF2B04").style("opacity", .6)
+  legend.append("text").attr("x", 30).attr("y", 200).text("Disminuyendo").style("font-size", "15px").attr("alignment-baseline","middle")
+  legend.append("text").attr("x", 30).attr("y", 230).text("Probablemente disminuyendo").style("font-size", "15px").attr("alignment-baseline","middle")
+  legend.append("text").attr("x", 30).attr("y", 260).text("Incierto").style("font-size", "15px").attr("alignment-baseline","middle")
+  legend.append("text").attr("x", 30).attr("y", 290).text("Probablemente aumentando").style("font-size", "15px").attr("alignment-baseline","middle")
+  legend.append("text").attr("x", 30).attr("y", 320).text("Aumentando").style("font-size", "15px").attr("alignment-baseline","middle")
     }
 </script>
 
